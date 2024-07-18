@@ -13,7 +13,7 @@
         <label>User Registration</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1210077_employ_0_user_registration</name>
-        <number_ref display_value="REG">402c219c47630210e560de94116d439a</number_ref>
+        <number_ref display_value="">402c219c47630210e560de94116d439a</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

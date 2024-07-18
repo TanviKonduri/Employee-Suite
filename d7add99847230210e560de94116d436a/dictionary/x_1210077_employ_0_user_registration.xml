@@ -5,6 +5,12 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" label="User Name" max_length="40" name="user_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="2"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
