@@ -21,7 +21,7 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -87,22 +87,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 05:56:56</sys_created_on>
         <sys_id>b5a22d5047630210e560de94116d43a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>User Registration</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sc_cat_item_producer_b5a22d5047630210e560de94116d43a1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-18 05:56:56</sys_updated_on>
-        <table_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-18 06:41:26</sys_updated_on>
+        <table_name>x_1210077_employ_0_user_registration</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version/>
+        <version>8</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
