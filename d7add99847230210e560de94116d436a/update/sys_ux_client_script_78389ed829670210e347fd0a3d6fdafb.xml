@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Order success">3c389ed86b6702101ab421f0ab0f9afb</macroponent>
+        <name>Refresh submitted screen</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let {
+        table,
+        sysId,
+        number
+    } = api.context.props;
+    if(table !== "sc_request"){
+        api.setState("successNumber",number);
+        api.setState("successSysId",sysId);
+    }else{
+        api.setState("requestSysId",sysId);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-18 09:50:58</sys_created_on>
+        <sys_id>78389ed829670210e347fd0a3d6fdafb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh submitted screen</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_client_script_78389ed829670210e347fd0a3d6fdafb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-18 09:50:58</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

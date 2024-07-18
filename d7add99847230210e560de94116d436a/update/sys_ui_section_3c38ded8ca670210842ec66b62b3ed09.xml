@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3c38ded8ca670210842ec66b62b3ed09" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1210077_employ_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
+            <sys_id>7438ded8f367021063e8010a8802980a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="b038ded823670210e94fa7c90c98b40a">3c38ded8ca670210842ec66b62b3ed09</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
+            <sys_id>7c38ded86a670210decb767352340a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="b038ded823670210e94fa7c90c98b40a">3c38ded8ca670210842ec66b62b3ed09</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c38ded8ca670210842ec66b62b3ed09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+            <sys_update_name>sys_ui_section_3c38ded8ca670210842ec66b62b3ed09</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_1210077_employ_0)" name="custom_portal_approval_x_1210077_employ_0">b038ded823670210e94fa7c90c98b40a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
