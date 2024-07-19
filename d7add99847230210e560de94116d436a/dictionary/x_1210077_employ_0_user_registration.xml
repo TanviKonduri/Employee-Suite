@@ -15,11 +15,5 @@
         <index name="index">
             <element name="sys_class_name"/>
         </index>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Approved" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Rejected" sequence="1" value="2"/>
-            </choice>
-        </element>
     </element>
 </database>
