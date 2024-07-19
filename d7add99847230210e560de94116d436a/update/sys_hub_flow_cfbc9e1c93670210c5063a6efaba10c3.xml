@@ -454,10 +454,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:28:30</sys_created_on>
         <sys_id>e7c0261847a70210e560de94116d4388</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <sys_updated_by>Manikanta.g</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:50:06</sys_updated_on>
         <ui_id>ad06c8de-378c-432c-b449-0d1eaa21d3b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e7c0261847a70210e560de94116d4388"/>
@@ -1097,14 +1097,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>cfbc9e1c93670210c5063a6efaba10c3</sys_id>
         <latest_snapshot>b14cfb6847e70210e560de94116d4388</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-05-02-2024_05-14-2024_2249.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cfbc9e1c93670210c5063a6efaba10c3^sys_idNOT IN424cfb6847e70210e560de94116d43f4"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"424cfb6847e70210e560de94116d43f4","name":"plan","plan_signature":null}}</plan>
         <plan_id>cfbc9e1c93670210c5063a6efaba10c3</plan_id>
-        <snapshot>b14cfb6847e70210e560de94116d4388</snapshot>
+        <snapshot>7c1dffa847e70210e560de94116d43d0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 11:46:39</sys_created_on>
         <sys_domain>global</sys_domain>
