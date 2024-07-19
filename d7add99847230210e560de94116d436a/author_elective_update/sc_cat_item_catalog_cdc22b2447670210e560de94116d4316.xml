@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="User Registration">25d1a3e047670210e560de94116d4335</sc_cat_item>
+        <sc_catalog display_value="Service Catalogs">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:55:10</sys_created_on>
+        <sys_id>cdc22b2447670210e560de94116d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalogs.User Registration</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_cdc22b2447670210e560de94116d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:55:10</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>31d4630cdb12f9d44162684e139619a4</instance_id>
+        <instance_name>dev198403</instance_name>
+        <name>sc_cat_item_catalog_cdc22b2447670210e560de94116d4316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="User Registration">25d1a3e047670210e560de94116d4335</sc_cat_item><sc_catalog display_value="Service Catalogs">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-19 09:55:10</sys_created_on><sys_id>cdc22b2447670210e560de94116d4316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalogs.User Registration</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_catalog_cdc22b2447670210e560de94116d4316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-19 09:55:10</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-2013792109</payload_hash>
+        <record_name>Service Catalogs.User Registration</record_name>
+        <reverted_from/>
+        <source>37be1f2c47270210e560de94116d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:55:10</sys_created_on>
+        <sys_id>0dc22b2447670210e560de94116d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190ca6aba350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:55:10</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4dc22b2465670210954ce2fb726eb225</update_guid>
+        <update_guid_history>4dc22b2465670210954ce2fb726eb225:-2013792109</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalogs.User Registration">eed2eb2447670210e560de94116d4371</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 09:55:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>4a0005be6e114bc094773e859d7f1e44</sys_id>
+        <sys_metadata>cdc22b2447670210e560de94116d4316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalogs.User Registration</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="User Registration">25d1a3e047670210e560de94116d4335</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_cdc22b2447670210e560de94116d4316</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_cdc22b2447670210e560de94116d4316">0dc22b2447670210e560de94116d4326</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 09:55:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
