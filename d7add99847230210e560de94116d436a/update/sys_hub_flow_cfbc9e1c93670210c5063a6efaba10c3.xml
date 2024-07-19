@@ -2,37 +2,35 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=92154000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>When the status is approved the candidate will go to interview</description>
         <internal_name>profile_approval</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"email"},{"name":"Created or Updated_1.current.approal","label":"Trigger - Record Created or Updated➛User Registration Record➛Approal","reference":"","reference_display":"Approal","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"approal","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"used":false,"reference":false,"value":"1","parameters":{"name":"x_1210077_employ_0_user_registration"}},{"image":"","rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"used":false,"reference":false,"value":"2","parameters":{"name":"x_1210077_employ_0_user_registration"}}]}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Created or Updated_1.current.approal","label":"Trigger - Record Created or Updated➛User Registration Record➛Approal","reference":"","reference_display":"Approal","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"approal","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"used":false,"reference":false,"value":"1","parameters":{"name":"x_1210077_employ_0_user_registration"}},{"image":"","rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"used":false,"reference":false,"value":"2","parameters":{"name":"x_1210077_employ_0_user_registration"}}]},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"email"},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"}]</label_cache>
+        <master_snapshot>b14cfb6847e70210e560de94116d4388</master_snapshot>
         <name>Profile Approval</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>ce4cfb6847e70210e560de94116d43f1</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:10:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfbc9e1c93670210c5063a6efaba10c3</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Profile Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -40,11 +38,51 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_cfbc9e1c93670210c5063a6efaba10c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 11:42:20</sys_updated_on>
+        <sys_updated_on>2024-07-19 11:46:40</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cfbc9e1c93670210c5063a6efaba10c3"/>
     <sys_variable_value action="delete_multiple" query="document_key=cfbc9e1c93670210c5063a6efaba10c3"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1210077_employ_0_user_registration">approal=1<item display_value="Approved" endquery="false" field="approal" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce4cfb6847e70210e560de94116d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <table>x_1210077_employ_0_user_registration</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>cfbc9e1c93670210c5063a6efaba10c3</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>ca4cfb6847e70210e560de94116d43f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <trigger display_value="">ce4cfb6847e70210e560de94116d43f1</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=cfbc9e1c93670210c5063a6efaba10c3^sys_idNOT INca4cfb6847e70210e560de94116d43f2"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=cfbc9e1c93670210c5063a6efaba10c3^sys_idNOT INe43d921c93670210c5063a6efaba10a4"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -55,10 +93,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:12:44</sys_created_on>
         <sys_id>e43d921c93670210c5063a6efaba10a4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 11:42:20</sys_updated_on>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -234,7 +272,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -293,14 +331,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:18:07</sys_created_on>
         <sys_id>ab6ed2dc93670210c5063a6efaba10c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-18 10:28:29</sys_updated_on>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -318,7 +356,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -377,14 +415,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:18:07</sys_created_on>
         <sys_id>af6ed2dc93670210c5063a6efaba10b1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-18 10:28:29</sys_updated_on>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -408,7 +446,6 @@
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Profile Approval">cfbc9e1c93670210c5063a6efaba10c3</flow>
         <order>1</order>
@@ -417,10 +454,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 10:28:30</sys_created_on>
         <sys_id>e7c0261847a70210e560de94116d4388</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 11:42:20</sys_updated_on>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
         <ui_id>ad06c8de-378c-432c-b449-0d1eaa21d3b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e7c0261847a70210e560de94116d4388"/>
@@ -542,6 +579,543 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cfbc9e1c93670210c5063a6efaba10c3"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cfbc9e1c93670210c5063a6efaba10c3"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cfbc9e1c93670210c5063a6efaba10c3"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cfbc9e1c93670210c5063a6efaba10c3"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>When the status is approved the candidate will go to interview</description>
+        <internal_name>profile_approval</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.approal","label":"Trigger - Record Created or Updated➛User Registration Record➛Approal","reference":"","reference_display":"Approal","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"approal","choices":[{"label":"-- None --","image":"","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"reference":false,"value":""},{"image":"","rawLabel":"Approved","selected":false,"label":"Approved","missing":false,"used":false,"reference":false,"value":"1","parameters":{"name":"x_1210077_employ_0_user_registration"}},{"image":"","rawLabel":"Rejected","selected":false,"label":"Rejected","missing":false,"used":false,"reference":false,"value":"2","parameters":{"name":"x_1210077_employ_0_user_registration"}}]},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"email"},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Record➛User Name","reference":"","reference_display":"User Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"}]</label_cache>
+        <master>true</master>
+        <name>Profile Approval</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Profile Approval">cfbc9e1c93670210c5063a6efaba10c3</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b14cfb6847e70210e560de94116d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b14cfb6847e70210e560de94116d4388"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b14cfb6847e70210e560de94116d4388^sys_idNOT INc24cfb6847e70210e560de94116d43e3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Profile Approval">b14cfb6847e70210e560de94116d4388</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>c24cfb6847e70210e560de94116d43e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c24cfb6847e70210e560de94116d43e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c24cfb6847e70210e560de94116d43e3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>464cfb6847e70210e560de94116d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <value>x_1210077_employ_0_user_registration</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c24cfb6847e70210e560de94116d43e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>824cfb6847e70210e560de94116d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <value>approal=1</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c24cfb6847e70210e560de94116d43e3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>ce4cfb6847e70210e560de94116d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=c24cfb6847e70210e560de94116d43e3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b14cfb6847e70210e560de94116d4388"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b14cfb6847e70210e560de94116d4388^sys_idNOT IN394cfb6847e70210e560de94116d4389"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b14cfb6847e70210e560de94116d4388</id>
+        <name>Profile Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:37</sys_created_on>
+        <sys_id>394cfb6847e70210e560de94116d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=394cfb6847e70210e560de94116d4389"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b14cfb6847e70210e560de94116d4388^sys_idNOT IN354cfb6847e70210e560de94116d43ae,7d4cfb6847e70210e560de94116d438a,8e4cfb6847e70210e560de94116d43c2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Profile Approval">b14cfb6847e70210e560de94116d4388</model>
+        <model_id>b14cfb6847e70210e560de94116d4388</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:38</sys_created_on>
+        <sys_id>354cfb6847e70210e560de94116d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=354cfb6847e70210e560de94116d43ae"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Profile Approval">b14cfb6847e70210e560de94116d4388</model>
+        <model_id>b14cfb6847e70210e560de94116d4388</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:37</sys_created_on>
+        <sys_id>7d4cfb6847e70210e560de94116d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d4cfb6847e70210e560de94116d438a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Profile Approval">b14cfb6847e70210e560de94116d4388</model>
+        <model_id>b14cfb6847e70210e560de94116d4388</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:38</sys_created_on>
+        <sys_id>8e4cfb6847e70210e560de94116d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8e4cfb6847e70210e560de94116d43c2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b14cfb6847e70210e560de94116d4388^sys_idNOT IN024cfb6847e70210e560de94116d43d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Profile Approval">b14cfb6847e70210e560de94116d4388</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>024cfb6847e70210e560de94116d43d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <ui_id>ad06c8de-378c-432c-b449-0d1eaa21d3b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=024cfb6847e70210e560de94116d43d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>024cfb6847e70210e560de94116d43d4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>0a4cfb6847e70210e560de94116d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <value>x_1210077_employ_0_user_profile</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=024cfb6847e70210e560de94116d43d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>024cfb6847e70210e560de94116d43d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>ce4cfb6847e70210e560de94116d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>024cfb6847e70210e560de94116d43d4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_id>864cfb6847e70210e560de94116d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{Created or Updated_1.current.user_name}}^email={{Created or Updated_1.current.email}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=024cfb6847e70210e560de94116d43d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=024cfb6847e70210e560de94116d43d4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b14cfb6847e70210e560de94116d4388"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388^sys_idNOT IN464cfb6847e70210e560de94116d43bf,464cfb6847e70210e560de94116d43c7,b54cfb6847e70210e560de94116d43aa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:38</sys_created_on>
+        <sys_id>464cfb6847e70210e560de94116d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:38</sys_created_on>
+        <sys_id>464cfb6847e70210e560de94116d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:38</sys_created_on>
+        <sys_id>b54cfb6847e70210e560de94116d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b14cfb6847e70210e560de94116d4388"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b14cfb6847e70210e560de94116d4388"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b14cfb6847e70210e560de94116d4388"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>cfbc9e1c93670210c5063a6efaba10c3</sys_id>
+        <latest_snapshot>b14cfb6847e70210e560de94116d4388</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cfbc9e1c93670210c5063a6efaba10c3^sys_idNOT IN424cfb6847e70210e560de94116d43f4"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan/>
+        <plan_id>cfbc9e1c93670210c5063a6efaba10c3</plan_id>
+        <snapshot>b14cfb6847e70210e560de94116d4388</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 11:46:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>424cfb6847e70210e560de94116d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 11:46:39</sys_updated_on>
+        <trigger display_value="">ce4cfb6847e70210e560de94116d43f1</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cfbc9e1c93670210c5063a6efaba10c3"/>
 </record_update>
