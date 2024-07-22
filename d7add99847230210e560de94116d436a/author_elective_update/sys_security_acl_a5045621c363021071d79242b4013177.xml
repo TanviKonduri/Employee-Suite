@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1210077_employ_0_interviews</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-22 06:45:03</sys_created_on>
+        <sys_id>a5045621c363021071d79242b4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1210077_employ_0_interviews</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_security_acl_a5045621c363021071d79242b4013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-22 06:45:03</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>31d4630cdb12f9d44162684e139619a4</instance_id>
+        <instance_name>dev198403</instance_name>
+        <name>sys_security_acl_a5045621c363021071d79242b4013177</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>x_1210077_employ_0_interviews</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-22 06:45:03</sys_created_on><sys_id>a5045621c363021071d79242b4013177</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1210077_employ_0_interviews</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_security_acl_a5045621c363021071d79242b4013177</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-22 06:45:03</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>937187790</payload_hash>
+        <record_name>x_1210077_employ_0_interviews</record_name>
+        <reverted_from/>
+        <source>0bed732c47e70210e560de94116d430b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-22 06:45:03</sys_created_on>
+        <sys_id>2d045621c363021071d79242b4013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190d92fc1440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-22 06:45:03</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>21045621bd630210de038cf8414ecd79</update_guid>
+        <update_guid_history>21045621bd630210de038cf8414ecd79:937187790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-22 06:59:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3bf92efe00b047689c1873a465520b61</sys_id>
+        <sys_metadata>a5045621c363021071d79242b4013177</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1210077_employ_0_interviews</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="">3bf39221c363021071d79242b401319b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a5045621c363021071d79242b4013177</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a5045621c363021071d79242b4013177">2d045621c363021071d79242b4013179</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-22 06:59:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

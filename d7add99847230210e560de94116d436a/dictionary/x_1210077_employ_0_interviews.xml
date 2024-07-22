@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ea7de65c363021071d79242b4013169" extends="task" label="Interviews" max_length="40" name="x_1210077_employ_0_interviews" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
+    </element>
+</database>
