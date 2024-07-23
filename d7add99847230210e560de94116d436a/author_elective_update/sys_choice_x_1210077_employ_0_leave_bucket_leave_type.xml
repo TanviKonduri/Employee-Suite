@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="leave_type" table="x_1210077_employ_0_leave_bucket" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>leave_type</element>
+            <name>x_1210077_employ_0_leave_bucket</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 09:18:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>leave_type</sys_name>
+            <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+            <sys_update_name>sys_choice_x_1210077_employ_0_leave_bucket_leave_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 09:18:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Casual Leaves</label>
+            <language>en</language>
+            <name>x_1210077_employ_0_leave_bucket</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 09:18:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 09:18:47</sys_updated_on>
+            <value>cl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Earned Leaves</label>
+            <language>en</language>
+            <name>x_1210077_employ_0_leave_bucket</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 09:19:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 09:19:50</sys_updated_on>
+            <value>el</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick Leave</label>
+            <language>en</language>
+            <name>x_1210077_employ_0_leave_bucket</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 09:20:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 09:20:16</sys_updated_on>
+            <value>sl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WFH</label>
+            <language>en</language>
+            <name>x_1210077_employ_0_leave_bucket</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 09:20:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 09:20:35</sys_updated_on>
+            <value>wfh</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
