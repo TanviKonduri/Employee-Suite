@@ -4,13 +4,13 @@
             <element>user_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-18 09:30:17</sys_created_on>
-            <sys_id>7273d21093670210c5063a6efaba1024</sys_id>
+            <sys_created_on>2024-07-22 12:10:41</sys_created_on>
+            <sys_id>a78e1be1c3e7021071d79242b4013169</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:30:17</sys_updated_on>
+            <sys_updated_on>2024-07-22 12:10:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>mobile_number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-18 09:30:17</sys_created_on>
-            <sys_id>7a73d21093670210c5063a6efaba1024</sys_id>
+            <sys_created_on>2024-07-22 12:10:41</sys_created_on>
+            <sys_id>2f8e1be1c3e7021071d79242b4013169</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:30:17</sys_updated_on>
+            <sys_updated_on>2024-07-22 12:10:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>u_choice_1</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-18 10:05:49</sys_created_on>
-            <sys_id>579b96d893670210c5063a6efaba107e</sys_id>
+            <sys_created_on>2024-07-22 12:10:41</sys_created_on>
+            <sys_id>af8e1be1c3e7021071d79242b4013169</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-18 10:05:49</sys_updated_on>
+            <sys_updated_on>2024-07-22 12:10:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,27 +46,55 @@
             <element>email</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-19 10:50:09</sys_created_on>
-            <sys_id>625feba447a70210e560de94116d43ea</sys_id>
+            <sys_created_on>2024-07-22 12:10:41</sys_created_on>
+            <sys_id>238e1be1c3e7021071d79242b401316a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-19 10:50:09</sys_updated_on>
+            <sys_updated_on>2024-07-22 12:10:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approal</element>
+            <element>notice_period</element>
             <position>4</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-19 10:57:36</sys_created_on>
-            <sys_id>2f013b6847a70210e560de94116d43eb</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 05:05:28</sys_created_on>
+            <sys_id>20d6cf31c36b421071d79242b40131b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-19 10:57:36</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 05:05:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 05:10:43</sys_created_on>
+            <sys_id>61084fb1c36b421071d79242b40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 05:10:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-23 06:14:19</sys_created_on>
+            <sys_id>459617b5c3ab421071d79242b4013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_user_registration" sys_domain="global" view="Default view">242c219c47630210e560de94116d43e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-23 06:14:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

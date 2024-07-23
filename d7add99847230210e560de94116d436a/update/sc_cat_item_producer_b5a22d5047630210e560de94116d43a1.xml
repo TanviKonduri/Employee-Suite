@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 05:56:56</sys_created_on>
         <sys_id>b5a22d5047630210e560de94116d43a1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>User Registration</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sc_cat_item_producer_b5a22d5047630210e560de94116d43a1</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-19 10:52:19</sys_updated_on>
+        <sys_updated_on>2024-07-23 06:03:26</sys_updated_on>
         <table_name>x_1210077_employ_0_user_registration</table_name>
         <taxonomy_topic/>
         <template/>
@@ -102,7 +102,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>12</version>
+        <version>24</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
