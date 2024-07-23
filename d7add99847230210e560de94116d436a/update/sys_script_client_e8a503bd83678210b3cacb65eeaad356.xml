@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Model gets disabled</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+if (sysIDs && sysIDs.length > 0) {
+    var sys_id = sysIDs[0];
+    var gr = new GlideRecord(x_1210077_employ_0_employee_asset_management);
+    if (gr.get(sys_id)) {
+      if (newValue == '3') {
+        gr.setValue('model', '');
+        gr.update(); 
+        alert("The model field has been hidden because the category value is 3.");
+      } else {
+        gr.setValue('model', 'some_default_value'); 
+        gr.update();
+      }
+    }
+}
+ callback(saveAndClose); 
+}
+ ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-23 05:00:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8a503bd83678210b3cacb65eeaad356</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Model gets disabled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_script_client_e8a503bd83678210b3cacb65eeaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-23 05:30:40</sys_updated_on>
+        <table>x_1210077_employ_0_employee_asset_management</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
