@@ -10,18 +10,18 @@
         "view": "workspace-test-0"
     }
 }</macroponent_config>
-        <screen display_value="Landing Page Default">bc389ed84067021005f249ee965d36b7</screen>
+        <screen display_value="ServiceNow Developer">a59e519683670610b3cacb65eeaad33a</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-18 09:52:05</sys_created_on>
-        <sys_id>1a781a1c47670210e560de94116d43b2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-07-24 10:47:02</sys_created_on>
+        <sys_id>259ed1d683670610b3cacb65eeaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_1a781a1c47670210e560de94116d43b2</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_259ed1d683670610b3cacb65eeaad3a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 09:19:33</sys_updated_on>
+        <sys_updated_on>2024-07-24 10:47:02</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

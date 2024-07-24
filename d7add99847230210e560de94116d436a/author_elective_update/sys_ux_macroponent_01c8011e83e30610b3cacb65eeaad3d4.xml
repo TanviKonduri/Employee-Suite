@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "afeef20635001010f877265d86f080df",
+            "type": "MACROPONENT"
+        },
+        "elementId": "catalog_item_1",
+        "elementLabel": "Catalog Item 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "engagementChannel": {
+                "type": "JSON_LITERAL",
+                "value": "seismic"
+            },
+            "headerLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "headingOnlyVisibleToScreenReaders": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideOptionsLabel": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "interceptNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "propagateNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "referrer": {
+                "type": "JSON_LITERAL",
+                "value": "default"
+            },
+            "requestedForId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "scrollable": {
+                "type": "JSON_LITERAL",
+                "value": "y"
+            },
+            "showRequestForHeader": {
+                "type": "JSON_LITERAL",
+                "value": "true"
+            },
+            "submitPosition": {
+                "type": "JSON_LITERAL",
+                "value": "right"
+            },
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": "0154ecda83230610b3cacb65eeaad357"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "catalog_item_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>page 1 copy</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 09:11:41</sys_created_on>
+        <sys_id>01c8011e83e30610b3cacb65eeaad3d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>page 1 copy</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_macroponent_01c8011e83e30610b3cacb65eeaad3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 09:11:43</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=01c8011e83e30610b3cacb65eeaad3d4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_macroponent_01c8011e83e30610b3cacb65eeaad3d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "afeef20635001010f877265d86f080df",
+            "type": "MACROPONENT"
+        },
+        "elementId": "catalog_item_1",
+        "elementLabel": "Catalog Item 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "engagementChannel": {
+                "type": "JSON_LITERAL",
+                "value": "seismic"
+            },
+            "headerLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "headingOnlyVisibleToScreenReaders": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideOptionsLabel": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "interceptNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "propagateNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "referrer": {
+                "type": "JSON_LITERAL",
+                "value": "default"
+            },
+            "requestedForId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "scrollable": {
+                "type": "JSON_LITERAL",
+                "value": "y"
+            },
+            "showRequestForHeader": {
+                "type": "JSON_LITERAL",
+                "value": "true"
+            },
+            "submitPosition": {
+                "type": "JSON_LITERAL",
+                "value": "right"
+            },
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": "0154ecda83230610b3cacb65eeaad357"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition><da_relay_models/><data>[
+    
+]</data><description/><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "catalog_item_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>page 1 copy</name><output_prop_mapping/><props>[
+    
+]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties/><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-24 09:11:41</sys_created_on><sys_id>01c8011e83e30610b3cacb65eeaad3d4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>page 1 copy</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_macroponent_01c8011e83e30610b3cacb65eeaad3d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-24 09:11:43</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=01c8011e83e30610b3cacb65eeaad3d4"/></record_update>]]></payload>
+        <payload_hash>-642773594</payload_hash>
+        <record_name>page 1 copy</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 09:11:43</sys_created_on>
+        <sys_id>ddc8011e83e30610b3cacb65eeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e402bd470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 09:11:43</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>95c8011edde306106574f1a67deed2ca</update_guid>
+        <update_guid_history>95c8011edde306106574f1a67deed2ca:-642773594,01c8011efae3061078270977c08bbdd6:-742464758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 10:46:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>4b932b7f49854cf68aae2bc10e9635c4</sys_id>
+        <sys_metadata>01c8011e83e30610b3cacb65eeaad3d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>page 1 copy</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_01c8011e83e30610b3cacb65eeaad3d4</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_01c8011e83e30610b3cacb65eeaad3d4">ddc8011e83e30610b3cacb65eeaad3ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 10:46:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
