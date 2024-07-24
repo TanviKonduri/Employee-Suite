@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="assignmen_date" table="x_1210077_employ_0_employee_asset_management">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="country" table="x_1210077_employ_0_employee_details">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Assignment Date</column_label>
+        <column_label>Country</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,16 +26,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>assignmen_date</element>
+        <element>country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_1210077_employ_0_employee_asset_management</name>
+        <name>x_1210077_employ_0_employee_details</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-22 10:52:03</sys_created_on>
-        <sys_name>Assignment Date</sys_name>
+        <sys_created_on>2024-07-23 11:16:00</sys_created_on>
+        <sys_name>Country</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name>sys_dictionary_x_1210077_employ_0_employee_asset_management_assignmen_date</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1210077_employ_0_employee_details_country</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-23 05:58:48</sys_updated_on>
+        <sys_updated_on>2024-07-23 11:16:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

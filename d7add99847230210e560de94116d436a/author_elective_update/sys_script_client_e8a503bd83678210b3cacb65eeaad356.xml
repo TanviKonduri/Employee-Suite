@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Model gets disabled</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+if (sysIDs && sysIDs.length > 0) {
+    var sys_id = sysIDs[0];
+    var gr = new GlideRecord(x_1210077_employ_0_employee_asset_management);
+    if (gr.get(sys_id)) {
+      if (newValue == '3') {
+        gr.setValue('model', '');
+        gr.update(); 
+        alert("The model field has been hidden because the category value is 3.");
+      } else {
+        gr.setValue('model', 'some_default_value'); 
+        gr.update();
+      }
+    }
+}
+ callback(saveAndClose); 
+}
+ ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-23 05:00:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8a503bd83678210b3cacb65eeaad356</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Model gets disabled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_script_client_e8a503bd83678210b3cacb65eeaad356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-23 05:30:40</sys_updated_on>
+        <table>x_1210077_employ_0_employee_asset_management</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_script_client_e8a503bd83678210b3cacb65eeaad356</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Model gets disabled&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+if (sysIDs &amp;&amp; sysIDs.length &gt; 0) {
+    var sys_id = sysIDs[0];
+    var gr = new GlideRecord(x_1210077_employ_0_employee_asset_management);
+    if (gr.get(sys_id)) {
+      if (newValue == '3') {
+        gr.setValue('model', '');
+        gr.update(); 
+        alert("The model field has been hidden because the category value is 3.");
+      } else {
+        gr.setValue('model', 'some_default_value'); 
+        gr.update();
+      }
+    }
+}
+ callback(saveAndClose); 
+}
+ ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-23 05:00:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e8a503bd83678210b3cacb65eeaad356&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Model gets disabled&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Suite" source="x_1210077_employ_0"&gt;d7add99847230210e560de94116d436a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Suite"&gt;d7add99847230210e560de94116d436a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e8a503bd83678210b3cacb65eeaad356&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-23 05:30:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1210077_employ_0_employee_asset_management&lt;/table&gt;&lt;type&gt;onCellEdit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-915083856</payload_hash>
+        <record_name>Model gets disabled</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-23 05:30:40</sys_created_on>
+        <sys_id>699c43f583a78210b3cacb65eeaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190de1201330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-23 05:30:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ed9c43f5e9a7821013e16e33e87bcb51</update_guid>
+        <update_guid_history>ed9c43f5e9a7821013e16e33e87bcb51:-915083856,4b09cbb130a782101ea05115b4cea2d8:-403402202,ae788331dca7821052786d6ef923b309:-1047906532,e8e683fde26782103bce1548b418cb95:-2014887934,cac5c3bdf16782101eee93966832139f:1115405166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-23 06:07:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1081575293d44fec8212a681f35fac10</sys_id>
+        <sys_metadata>e8a503bd83678210b3cacb65eeaad356</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Model gets disabled</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="Employ 0 Employee Asset Management">5b1a03ed83a34210b3cacb65eeaad388</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_script_client_e8a503bd83678210b3cacb65eeaad356</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e8a503bd83678210b3cacb65eeaad356">699c43f583a78210b3cacb65eeaad352</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-23 06:07:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

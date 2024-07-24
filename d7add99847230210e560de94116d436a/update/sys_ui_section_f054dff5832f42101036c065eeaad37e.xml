@@ -1,201 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="f054dff5832f42101036c065eeaad37e" sys_domain="global" table="x_1210077_employ_0_leave_request" version="3" view="">
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>86ae7b31832382101036c065eeaad370</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requested_by</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>0eae7b31832382101036c065eeaad370</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>half_day</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>82ae7b31832382101036c065eeaad371</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>accrued</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>0aae7b31832382101036c065eeaad371</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>taken</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>8eae7b31832382101036c065eeaad371</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>06ae7b31832382101036c065eeaad372</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approval</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>8aae7b31832382101036c065eeaad372</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>02ae7b31832382101036c065eeaad373</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>leave_type</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>86ae7b31832382101036c065eeaad373</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_date</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>0eae7b31832382101036c065eeaad373</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>end_date</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>82ae7b31832382101036c065eeaad374</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>duration</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>0aae7b31832382101036c065eeaad374</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>balance</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>8eae7b31832382101036c065eeaad374</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <position>13</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 09:09:24</sys_created_on>
-            <sys_id>06ae7b31832382101036c065eeaad375</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_leave_request" sys_domain="global" view="Default view">f054dff5832f42101036c065eeaad37e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 09:09:24</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -203,7 +7,7 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-23 06:04:28</sys_created_on>
+            <sys_created_on>2024-07-23 06:05:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f054dff5832f42101036c065eeaad37e</sys_id>
@@ -215,7 +19,7 @@
             <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
             <sys_update_name>sys_ui_section_f054dff5832f42101036c065eeaad37e</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-23 06:04:28</sys_updated_on>
+            <sys_updated_on>2024-07-23 06:05:17</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>
