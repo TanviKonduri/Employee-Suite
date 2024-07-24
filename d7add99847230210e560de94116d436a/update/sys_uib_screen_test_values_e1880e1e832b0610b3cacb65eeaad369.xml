@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "screen": null,
+        "userPrefs": null,
+        "view": "workspace-test-0"
+    }
+}</macroponent_config>
+        <screen display_value="ServiceNow Developer">69880e1e832b0610b3cacb65eeaad366</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 13:50:15</sys_created_on>
+        <sys_id>e1880e1e832b0610b3cacb65eeaad369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_e1880e1e832b0610b3cacb65eeaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 13:51:15</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
