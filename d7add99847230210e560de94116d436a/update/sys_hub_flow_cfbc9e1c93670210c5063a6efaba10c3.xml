@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=92154000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfbc9e1c93670210c5063a6efaba10c3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Profile Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_cfbc9e1c93670210c5063a6efaba10c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 11:46:40</sys_updated_on>
+        <sys_updated_on>2024-07-24 08:48:46</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cfbc9e1c93670210c5063a6efaba10c3"/>
@@ -520,7 +520,7 @@
         <sys_created_on>2024-07-18 10:18:07</sys_created_on>
         <sys_id>2f6ed2dc93670210c5063a6efaba10cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -543,7 +543,7 @@
         <sys_created_on>2024-07-18 10:18:07</sys_created_on>
         <sys_id>636ed2dc93670210c5063a6efaba10c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -566,7 +566,7 @@
         <sys_created_on>2024-07-18 10:18:08</sys_created_on>
         <sys_id>ef6ed2dc93670210c5063a6efaba10d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1035,7 +1035,7 @@
         <sys_created_on>2024-07-19 11:46:38</sys_created_on>
         <sys_id>464cfb6847e70210e560de94116d43bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1058,7 +1058,7 @@
         <sys_created_on>2024-07-19 11:46:38</sys_created_on>
         <sys_id>464cfb6847e70210e560de94116d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1081,7 +1081,7 @@
         <sys_created_on>2024-07-19 11:46:38</sys_created_on>
         <sys_id>b54cfb6847e70210e560de94116d43aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
