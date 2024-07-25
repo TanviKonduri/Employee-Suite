@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Reject Mapping</name>
+        <parent_macroponent display_value="Landing Page">7e1e291aa66fc2101af27da5d89f620a</parent_macroponent>
+        <source_component/>
+        <source_da display_value="reject">f21e291ae96fc2108a0a69cd5ea2cc11</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 05:04:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b21e291a5c6fc210d1ddda4735938909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_b21e291a5c6fc210d1ddda4735938909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 05:04:30</sys_updated_on>
+        <target_event display_value="">b61e291a436fc210d3b78a3b5d9fe208</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_addon_event_mapping_b21e291a5c6fc210d1ddda4735938909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Reject Mapping</name><parent_macroponent display_value="Landing Page">7e1e291aa66fc2101af27da5d89f620a</parent_macroponent><source_component/><source_da display_value="reject">f21e291ae96fc2108a0a69cd5ea2cc11</source_da><source_element_id>data_row_1</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 05:04:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b21e291a5c6fc210d1ddda4735938909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reject Mapping</sys_name><sys_overrides/><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_addon_event_mapping_b21e291a5c6fc210d1ddda4735938909</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 05:04:30</sys_updated_on><target_event display_value="">b61e291a436fc210d3b78a3b5d9fe208</target_event><target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>1773118513</payload_hash>
+        <record_name>Reject Mapping</record_name>
+        <reverted_from/>
+        <source>aba8252e836b4610b3cacb65eeaad356</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 06:09:36</sys_created_on>
+        <sys_id>a3a8252e836b4610b3cacb65eeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e88260920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 06:09:36</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>3dc9d12aec2b461093110102e9d0c907</update_guid>
+        <update_guid_history>3dc9d12aec2b461093110102e9d0c907:1773118513,464869eaa36b461002847fb2e0d94ae1:0,3dc9d12aec2b461093110102e9d0c907:1773118513,65c9912a6d2b461096e9ef4970faafcf:1360653093,e5763d965ce70610f74f8914600f9f38:1357185328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 06:09:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>a3d85583257741adb979ff8ff80a4d79</sys_id>
+        <sys_metadata>b21e291a5c6fc210d1ddda4735938909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Mapping</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_b21e291a5c6fc210d1ddda4735938909</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_b21e291a5c6fc210d1ddda4735938909">a3a8252e836b4610b3cacb65eeaad3cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 06:09:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

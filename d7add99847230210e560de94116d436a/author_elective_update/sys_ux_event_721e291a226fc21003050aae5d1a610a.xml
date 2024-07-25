@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>POPULAR_ARTICLES</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Popular articles</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:52</sys_created_on>
+        <sys_id>721e291a226fc21003050aae5d1a610a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_event_721e291a226fc21003050aae5d1a610a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:52</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=721e291a226fc21003050aae5d1a610a"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_event_721e291a226fc21003050aae5d1a610a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>POPULAR_ARTICLES</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Popular articles</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:52</sys_created_on>
+        <sys_id>721e291a226fc21003050aae5d1a610a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_event_721e291a226fc21003050aae5d1a610a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:52</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=721e291a226fc21003050aae5d1a610a"/>
+</record_update>]]></payload>
+        <payload_hash>408107055</payload_hash>
+        <record_name>Popular articles</record_name>
+        <reverted_from/>
+        <source>fb66399683e70610b3cacb65eeaad362</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 12:31:23</sys_created_on>
+        <sys_id>5a767d9683e70610b3cacb65eeaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e4b98be20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 12:31:23</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>1a767d967be706102b72c01608c56bbe</update_guid>
+        <update_guid_history>1a767d967be706102b72c01608c56bbe:408107055</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 05:04:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>2fc6760094d845c992e2b8b7c1446599</sys_id>
+        <sys_metadata>721e291a226fc21003050aae5d1a610a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_event_721e291a226fc21003050aae5d1a610a</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_721e291a226fc21003050aae5d1a610a">5a767d9683e70610b3cacb65eeaad3be</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 05:04:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
