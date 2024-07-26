@@ -29,29 +29,52 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-var gr = new GlideRecord('x_1210077_employ_0_leave_calculator');
-gr.addQuery('country.name',current.location.country);
-gr.query();
-if(gr.next());
-{
-	if(gr.leave_assignment == 'y');
-      {
-		var leaveBucket = new GlideRecord('x_1210077_employ_0_leave_bucket');
-		leaveBucket.leave_type = gr.leave_type;
-		leaveBucket.accrued = gr.accrued
-	  }
-}
-
-
-})(current, previous);]]></script>
+        <script><![CDATA[function executeRule(current, previous /*null when async*/ ) {
+    var gr = new GlideRecord('x_1210077_employ_0_leave_calculator');
+    gr.addQuery('country.name', current.location.country);
+    gr.query();
+    if (gr.next()) {
+        if (gr.leave_assignment == 'y') {
+            var gdt = new GlideDateTime();
+            var currentMonth = gdt.getMonthLocalTime();
+            var monthsLeft = 12 - currentMonth;
+            var perMonth = gr.leaves / 12;
+            var totalLeaves = perMonth * monthsLeft;
+ 
+ 
+            var leaveBucket = new GlideRecord('x_1210077_employ_0_leave_bucket');
+            leaveBucket.initialize();
+            leaveBucket.leave_type = gr.leave_type;
+            leaveBucket.accrued = totalLeaves;
+            leaveBucket.balance = totalLeaves;
+            leaveBucket.taken = 0;
+            leaveBucket.employee = current.sys_id;
+            leaveBucket.insert();
+ 
+ 
+        } else if (gr.leave_assignment == 'm') {
+            var perMonthM = gr.leaves / 12;
+ 
+            var leaveBucketM = new GlideRecord('x_1210077_employ_0_leave_bucket');
+            leaveBucketM.initialize();
+            leaveBucketM.leave_type = gr.leave_type;
+            leaveBucketM.accrued = perMonthM;
+            leaveBucketM.balance = perMonthM;
+            leaveBucketM.taken = 0;
+            leaveBucketM.employee = current.sys_id;
+            leaveBucketM.insert();
+        }
+    }
+ 
+ 
+}(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-23 11:08:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>401514ce836382101036c065eeaad3ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Leave Blance</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -59,7 +82,7 @@ if(gr.next());
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_script_401514ce836382101036c065eeaad3ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-23 11:57:09</sys_updated_on>
+        <sys_updated_on>2024-07-26 08:49:07</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
