@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">27bb066a752f4610cf67d66edbd84496</dataset>
+        <datasource display_value="My Request - Incident datasource">2fbb066ae72f46100cfb674764616f94</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 08:42:51</sys_created_on>
+        <sys_id>6bbb066ac22f4610d59b96646066e294</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_6bbb066ac22f4610d59b96646066e294</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 08:42:51</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

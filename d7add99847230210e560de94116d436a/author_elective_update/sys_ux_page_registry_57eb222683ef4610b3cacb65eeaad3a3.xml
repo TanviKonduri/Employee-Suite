@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>5beb222683ef4610b3cacb65eeaad3a3</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>selfservice</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 11:03:30</sys_created_on>
+        <sys_id>57eb222683ef4610b3cacb65eeaad3a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Self Service</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_registry_57eb222683ef4610b3cacb65eeaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:50:33</sys_updated_on>
+        <title>Self Service</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_page_registry_57eb222683ef4610b3cacb65eeaad3a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>5beb222683ef4610b3cacb65eeaad3a3</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app><path>selfservice</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-07-25 11:03:30</sys_created_on><sys_id>57eb222683ef4610b3cacb65eeaad3a3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Self Service</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_page_registry_57eb222683ef4610b3cacb65eeaad3a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 11:50:33</sys_updated_on><title>Self Service</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1624222960</payload_hash>
+        <record_name>Self Service</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:50:33</sys_created_on>
+        <sys_id>bdb63aa283238610b3cacb65eeaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e9ba83830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:50:33</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>35b63aa2892386102f32bac345705e02</update_guid>
+        <update_guid_history>35b63aa2892386102f32bac345705e02:-1624222960,1fa6f262f82386107174600790a555f8:1115606507,13a6f26253238610b4c420e98a2fc3f7:244556273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 12:20:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>7b7566d6ea6841d88526e9bac877f640</sys_id>
+        <sys_metadata>57eb222683ef4610b3cacb65eeaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Service</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_57eb222683ef4610b3cacb65eeaad3a3</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_57eb222683ef4610b3cacb65eeaad3a3">bdb63aa283238610b3cacb65eeaad302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:20:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="asset  portal">261ee51a836fc2101036c065eeaad38c</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>761ee51ae66fc2102283aa83c6d60dcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_property_761ee51ae66fc2102283aa83c6d60dcb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1210077_employ_0.261ee51a836fc2101036c065eeaad38c.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=761ee51ae66fc2102283aa83c6d60dcb"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_page_property_761ee51ae66fc2102283aa83c6d60dcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>enable_login_modal</name>
+        <page display_value="asset  portal">261ee51a836fc2101036c065eeaad38c</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>761ee51ae66fc2102283aa83c6d60dcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_property_761ee51ae66fc2102283aa83c6d60dcb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:51</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1210077_employ_0.261ee51a836fc2101036c065eeaad38c.root.enable_login_modal</unique_name>
+        <value>{&#13;
+	"enabled":false&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=761ee51ae66fc2102283aa83c6d60dcb"/>
+</record_update>]]></payload>
+        <payload_hash>910824374</payload_hash>
+        <record_name>enable_login_modal</record_name>
+        <reverted_from/>
+        <source>fb66399683e70610b3cacb65eeaad362</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 12:31:25</sys_created_on>
+        <sys_id>a276bd9683e70610b3cacb65eeaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e4b991c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 12:31:25</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>6276bd9665e70610b7bec8e0eb63ec32</update_guid>
+        <update_guid_history>6276bd9665e70610b7bec8e0eb63ec32:910824374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 08:40:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>5ed26e23ecb043fab2500d9e80660481</sys_id>
+        <sys_metadata>761ee51ae66fc2102283aa83c6d60dcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enable_login_modal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_761ee51ae66fc2102283aa83c6d60dcb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_761ee51ae66fc2102283aa83c6d60dcb">a276bd9683e70610b3cacb65eeaad332</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 08:40:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

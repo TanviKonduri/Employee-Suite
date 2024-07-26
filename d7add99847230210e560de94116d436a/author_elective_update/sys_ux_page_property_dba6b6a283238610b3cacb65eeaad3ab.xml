@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="Self Service">57eb222683ef4610b3cacb65eeaad3a3</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:50:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>dba6b6a283238610b3cacb65eeaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_property_dba6b6a283238610b3cacb65eeaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:50:22</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1210077_employ_0.57eb222683ef4610b3cacb65eeaad3a3.root.chrome_toolbar</unique_name>
+        <value>[]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=dba6b6a283238610b3cacb65eeaad3ab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_page_property_dba6b6a283238610b3cacb65eeaad3ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_toolbar</name><page display_value="Self Service">57eb222683ef4610b3cacb65eeaad3a3</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 11:50:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>dba6b6a283238610b3cacb65eeaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_toolbar</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_page_property_dba6b6a283238610b3cacb65eeaad3ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 11:50:22</sys_updated_on><type>json</type><unique_name>x_1210077_employ_0.57eb222683ef4610b3cacb65eeaad3a3.root.chrome_toolbar</unique_name><value>[]</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=dba6b6a283238610b3cacb65eeaad3ab"/></record_update>]]></payload>
+        <payload_hash>1337546163</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:50:22</sys_created_on>
+        <sys_id>dfa6b6a283238610b3cacb65eeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e9ba5ba20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:50:22</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>d3a6b6a272238610ab8bf4a521da5aad</update_guid>
+        <update_guid_history>d3a6b6a272238610ab8bf4a521da5aad:1337546163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 12:20:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>29b9b415a4134e5e9c15dd006d72fdb9</sys_id>
+        <sys_metadata>dba6b6a283238610b3cacb65eeaad3ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_dba6b6a283238610b3cacb65eeaad3ab</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_dba6b6a283238610b3cacb65eeaad3ab">dfa6b6a283238610b3cacb65eeaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:20:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

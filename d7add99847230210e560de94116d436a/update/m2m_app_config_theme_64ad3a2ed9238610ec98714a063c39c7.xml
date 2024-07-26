@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="">20ad3a2ea8238610383f1f669f15a6c6</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 12:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64ad3a2ed9238610ec98714a063c39c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>m2m_app_config_theme_64ad3a2ed9238610ec98714a063c39c7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:20:47</sys_updated_on>
+        <theme display_value="Light Theme">e0ad3a2e8423861013be407f01f878c6</theme>
+        <ux_app_configuration display_value="Custom Portal App Config">d0adf62e83238610b3cacb65eeaad3f7</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

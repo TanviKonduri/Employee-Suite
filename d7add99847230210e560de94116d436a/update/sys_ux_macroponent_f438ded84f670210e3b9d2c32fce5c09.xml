@@ -605,7 +605,7 @@
                                             "elementLabel": "Search Combobox Component 1",
                                             "eventMappings": [
                                                 {
-                                                    "eventMappingId": "ckhffzbbhhylaaaaddcddhhhiihcwlfffffgg",
+                                                    "eventMappingId": "clzbbccfeeabbaacczccddffhhsfniijdhhuii",
                                                     "isConfiguration": false,
                                                     "offRowStorageId": null,
                                                     "sourceEventApiName": "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
@@ -619,15 +619,31 @@
                                                     "targets": [
                                                         {
                                                             "broker": null,
-                                                            "clientScript": {
-                                                                "sysId": "30389ed860670210f0d23f175fd020fe"
-                                                            },
+                                                            "clientScript": null,
                                                             "conditional": null,
                                                             "declarativeAction": null,
-                                                            "event": null,
+                                                            "event": {
+                                                                "apiName": "x_1210077_employ_0.NAV_ITEM_SELECTED_RELAY_f438ded84f670210e3b9d2c32fce5c09",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "external": null,
+                                                                        "fields": null,
+                                                                        "multiInstField": null,
+                                                                        "navigationOptions": null,
+                                                                        "params": null,
+                                                                        "passiveNavigation": null,
+                                                                        "redirect": null,
+                                                                        "route": "laptop",
+                                                                        "targetRoute": null,
+                                                                        "title": null
+                                                                    }
+                                                                },
+                                                                "sysId": "3c389ed80667021072d2c706492d63c2"
+                                                            },
                                                             "operation": null,
-                                                            "targetId": "ckhffzbbhhylaaaadddddhhhiiffypwhbeq",
-                                                            "type": "CLIENT_SCRIPT"
+                                                            "targetId": "clzbbccfeeabbaacczddddffhhstwzotell",
+                                                            "type": "EVENT"
                                                         }
                                                     ]
                                                 }
@@ -3303,7 +3319,7 @@
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <handled_events>3038ded86a670210cfa1f1ed37ead707,b438ded822670210649763ee52be6207,3c38ded81c6702105fb3664a01aac307,3838ded87667021088f42b5f261a4808,f838ded8eb6702102b4917e025f54008</handled_events>
+        <handled_events>3038ded86a670210cfa1f1ed37ead707,3e1e291ae36fc210ea78648624457108,2fbb066a5a2f4610e56f54082fec28ac,2bbb066adb2f46107343e62da2d225ad,361e291aca6fc210c1ff13f6ad1afd0a</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
@@ -3807,14 +3823,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-07-18 09:50:56</sys_created_on>
         <sys_id>f438ded84f670210e3b9d2c32fce5c09</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_ux_macroponent_f438ded84f670210e3b9d2c32fce5c09</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 09:19:32</sys_updated_on>
+        <sys_updated_on>2024-07-25 09:23:04</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f438ded84f670210e3b9d2c32fce5c09"/>
 </record_update>

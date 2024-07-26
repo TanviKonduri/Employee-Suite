@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability display_value="Public">6feb622649ef4610c4864b6729ee0db0</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 11:03:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3eb62269bef4610df0bb5266ca3d1b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>m2m_app_config_theme_a3eb62269bef4610df0bb5266ca3d1b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:03:27</sys_updated_on>
+        <theme display_value="Light Theme">23eb622647ef4610ae40bd49f93b31b1</theme>
+        <ux_app_configuration display_value="">5beb222683ef4610b3cacb65eeaad3a3</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>m2m_app_config_theme_a3eb62269bef4610df0bb5266ca3d1b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability display_value="Public">6feb622649ef4610c4864b6729ee0db0</applicability><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-07-25 11:03:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3eb62269bef4610df0bb5266ca3d1b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>m2m_app_config_theme_a3eb62269bef4610df0bb5266ca3d1b2</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-07-25 11:03:27</sys_updated_on><theme display_value="Light Theme">23eb622647ef4610ae40bd49f93b31b1</theme><ux_app_configuration display_value="">5beb222683ef4610b3cacb65eeaad3a3</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>1658717097</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5deac50193220210c5063a6efaba10fe</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by/>
+        <sys_created_on>2024-05-31 19:05:47</sys_created_on>
+        <sys_id>508d362e83238610b3cacb65eeaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fd00b36f80000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:41:29</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>108d362e0b2386103adad78419b1defa</update_guid>
+        <update_guid_history>108d362e0b2386103adad78419b1defa:1658717097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">988d362e83238610b3cacb65eeaad3fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 12:20:12</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>47db9d32b6f742768f79f9b59ed19c21</sys_id>
+        <sys_metadata>a3eb62269bef4610df0bb5266ca3d1b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_a3eb62269bef4610df0bb5266ca3d1b2</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_a3eb62269bef4610df0bb5266ca3d1b2">508d362e83238610b3cacb65eeaad3fa</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:20:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

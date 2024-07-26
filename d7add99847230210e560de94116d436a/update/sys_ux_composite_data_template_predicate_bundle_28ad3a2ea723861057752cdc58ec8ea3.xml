@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Popular articles bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 12:20:50</sys_created_on>
+        <sys_id>28ad3a2ea723861057752cdc58ec8ea3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles bundle</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_28ad3a2ea723861057752cdc58ec8ea3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:20:50</sys_updated_on>
+    </sys_ux_composite_data_template_predicate_bundle>
+</record_update>

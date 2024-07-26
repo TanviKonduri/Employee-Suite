@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>2a1ee51a836fc2101036c065eeaad38c</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>asset-portal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:53</sys_created_on>
+        <sys_id>261ee51a836fc2101036c065eeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset  portal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_registry_261ee51a836fc2101036c065eeaad38c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:53</sys_updated_on>
+        <title>asset  portal</title>
+    </sys_ux_page_registry>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_page_registry_261ee51a836fc2101036c065eeaad38c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>2a1ee51a836fc2101036c065eeaad38c</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>asset-portal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-24 11:54:53</sys_created_on>
+        <sys_id>261ee51a836fc2101036c065eeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset  portal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_registry_261ee51a836fc2101036c065eeaad38c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-24 11:54:53</sys_updated_on>
+        <title>asset  portal</title>
+    </sys_ux_page_registry>
+</record_update>]]></payload>
+        <payload_hash>2021400813</payload_hash>
+        <record_name>asset  portal</record_name>
+        <reverted_from/>
+        <source>fb66399683e70610b3cacb65eeaad362</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 12:31:25</sys_created_on>
+        <sys_id>f276bd9683e70610b3cacb65eeaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e4b9926a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 12:31:25</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>b276bd9633e706101278fdb558f6c14d</update_guid>
+        <update_guid_history>b276bd9633e706101278fdb558f6c14d:2021400813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 08:40:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>21afaf466ad44834b24f67ea7ae65759</sys_id>
+        <sys_metadata>261ee51a836fc2101036c065eeaad38c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset  portal</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_261ee51a836fc2101036c065eeaad38c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_261ee51a836fc2101036c065eeaad38c">f276bd9683e70610b3cacb65eeaad34d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-25 08:40:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

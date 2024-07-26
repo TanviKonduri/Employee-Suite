@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Approve Mapping</name>
+        <parent_macroponent display_value="Landing Page">f438ded84f670210e3b9d2c32fce5c09</parent_macroponent>
+        <source_component/>
+        <source_da display_value="approve">4938ded8b4670210136081035c64ed0f</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 09:23:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7038ded85b670210b9edf6bbcb8fec09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_7038ded85b670210b9edf6bbcb8fec09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 09:23:04</sys_updated_on>
+        <target_event display_value="">b438ded822670210649763ee52be6207</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_addon_event_mapping_7038ded85b670210b9edf6bbcb8fec09</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>Approve Mapping</name><parent_macroponent display_value="Landing Page">f438ded84f670210e3b9d2c32fce5c09</parent_macroponent><source_component/><source_da display_value="approve">4938ded8b4670210136081035c64ed0f</source_da><source_element_id>data_row_1</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 09:23:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7038ded85b670210b9edf6bbcb8fec09</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approve Mapping</sys_name><sys_overrides/><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_addon_event_mapping_7038ded85b670210b9edf6bbcb8fec09</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 09:23:04</sys_updated_on><target_event display_value="">b438ded822670210649763ee52be6207</target_event><target_payload_mapping>{
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-1973980247</payload_hash>
+        <record_name>Approve Mapping</record_name>
+        <reverted_from/>
+        <source>f952c3aa83638610b3cacb65eeaad359</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 12:41:34</sys_created_on>
+        <sys_id>c1624baa83638610b3cacb65eeaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e9e938860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:41:34</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>65f4d6a6696f46100ccdc9fd0b339ad3</update_guid>
+        <update_guid_history>65f4d6a6696f46100ccdc9fd0b339ad3:-1973980247,5ae1cb2af363861045146e4329def683:0,65f4d6a6696f46100ccdc9fd0b339ad3:-1973980247,ffd04be25a6386100800eae06844b8d4:0,65f4d6a6696f46100ccdc9fd0b339ad3:-1973980247,99f416a6666f4610588713162e33d3c2:2107350150,12c816d4a0670210b46d8584e78bf4cf:410650780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 12:41:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>160d6f50a15f4c8482ea1aadbdcdb790</sys_id>
+        <sys_metadata>7038ded85b670210b9edf6bbcb8fec09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Mapping</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_7038ded85b670210b9edf6bbcb8fec09</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_7038ded85b670210b9edf6bbcb8fec09">c1624baa83638610b3cacb65eeaad3f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 12:41:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Self Service">d3bb066a832f4610b3cacb65eeaad355</page>
+        <required_translations>[ ]</required_translations>
+        <route display_value="Search Page">e3bb066a852f461031992c00d555b9a6</route>
+        <suffix>chrome_header</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-25 08:42:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>27bb066a142f461040f392a24701a37a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_page_property_27bb066a142f461040f392a24701a37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 09:51:07</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1210077_employ_0.d3bb066a832f4610b3cacb65eeaad355.route.chrome_header.e3bb066a852f461031992c00d555b9a6</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=27bb066a142f461040f392a24701a37a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sys_ux_page_property_27bb066a142f461040f392a24701a37a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="Self Service">d3bb066a832f4610b3cacb65eeaad355</page><required_translations>[ ]</required_translations><route display_value="Search Page">e3bb066a852f461031992c00d555b9a6</route><suffix>chrome_header</suffix><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-07-25 08:42:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>27bb066a142f461040f392a24701a37a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_page_property_27bb066a142f461040f392a24701a37a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 09:51:07</sys_updated_on><type>json</type><unique_name>x_1210077_employ_0.d3bb066a832f4610b3cacb65eeaad355.route.chrome_header.e3bb066a852f461031992c00d555b9a6</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=27bb066a142f461040f392a24701a37a"/></record_update>]]></payload>
+        <payload_hash>433973830</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 09:51:07</sys_created_on>
+        <sys_id>d86bde6e836f4610b3cacb65eeaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e94d2d770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 09:51:07</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>506bde6e246f4610c537ba9f2f6aaf6b</update_guid>
+        <update_guid_history>506bde6e246f4610c537ba9f2f6aaf6b:433973830,233ad22ef86f461011d67ac670e97272:-2010999115,273ad22e936f4610aee09cade4176670:347088690</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 11:47:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>c91501b6b4344467842f9f9015d04ed9</sys_id>
+        <sys_metadata>27bb066a142f461040f392a24701a37a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_27bb066a142f461040f392a24701a37a</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_27bb066a142f461040f392a24701a37a">d86bde6e836f4610b3cacb65eeaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 11:47:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
