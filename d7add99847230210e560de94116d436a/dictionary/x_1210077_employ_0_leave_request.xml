@@ -11,7 +11,7 @@
         </element>
         <element label="Balance" max_length="40" name="balance" type="float"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="string"/>
-        <element label="Duration" max_length="40" name="duration" type="float"/>
+        <element label="Leave Duration" max_length="40" name="duration" type="float"/>
         <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Half Day" max_length="40" name="half_day" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Leave Type" max_length="40" name="leave_type" type="choice">
@@ -33,6 +33,7 @@
             </choice>
         </element>
         <element label="Taken" max_length="40" name="taken" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Total leaves" max_length="40" name="total_leaves" type="string"/>
         <index name="index">
             <element name="requested_by"/>
         </index>
