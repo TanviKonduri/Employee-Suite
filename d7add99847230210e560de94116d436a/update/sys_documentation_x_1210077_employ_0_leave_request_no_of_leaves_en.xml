@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="total_leaves" label="Total Leaves" language="en" table="x_1210077_employ_0_leave_request">
+    <sys_documentation element="no_of_leaves" label="No of leaves" language="en" table="x_1210077_employ_0_leave_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>total_leaves</element>
+            <element>no_of_leaves</element>
             <help/>
             <hint/>
-            <label>Total Leaves</label>
+            <label>No of leaves</label>
             <language>en</language>
             <name>x_1210077_employ_0_leave_request</name>
-            <plural>Total Leaves</plural>
+            <plural>No of leaves</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-07-26 06:19:19</sys_created_on>
+            <sys_created_on>2024-07-26 06:32:38</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Total Leaves</sys_name>
+            <sys_name>No of leaves</sys_name>
             <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
             <sys_policy/>
             <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-            <sys_update_name>sys_documentation_x_1210077_employ_0_leave_request_total_leaves_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1210077_employ_0_leave_request_no_of_leaves_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-07-26 06:19:19</sys_updated_on>
+            <sys_updated_on>2024-07-26 06:32:38</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

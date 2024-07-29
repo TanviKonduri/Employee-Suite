@@ -22,6 +22,7 @@
                 <element inactive_on_update="false" label="WFH" value="wfh"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="No of leaves" max_length="40" name="no_of_leaves" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="requested_by" reference="x_1210077_employ_0_employee_details" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date"/>
@@ -34,7 +35,7 @@
         </element>
         <element label="Taken" max_length="40" name="taken" type="float"/>
         <element label="Took" max_length="40" name="took" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Total leaves" max_length="40" name="total_leaves" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Leaves" max_length="40" name="total_leaves" type="string"/>
         <index name="index">
             <element name="requested_by"/>
         </index>
