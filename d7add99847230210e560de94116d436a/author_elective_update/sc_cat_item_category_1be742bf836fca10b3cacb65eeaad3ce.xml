@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Mouse">f1b70e7f836fca10b3cacb65eeaad312</sc_cat_item>
+        <sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 05:38:32</sys_created_on>
+        <sys_id>1be742bf836fca10b3cacb65eeaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.Mouse</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_category_1be742bf836fca10b3cacb65eeaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 05:38:32</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_category_1be742bf836fca10b3cacb65eeaad3ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Mouse">f1b70e7f836fca10b3cacb65eeaad312</sc_cat_item><sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 05:38:32</sys_created_on><sys_id>1be742bf836fca10b3cacb65eeaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admin Welcome Kit.Mouse</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_category_1be742bf836fca10b3cacb65eeaad3ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 05:38:32</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1688413515</payload_hash>
+        <record_name>Admin Welcome Kit.Mouse</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 05:38:32</sys_created_on>
+        <sys_id>53e742bf836fca10b3cacb65eeaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fcff5cc10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 05:38:32</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>53e742bfe16fca1095c33577f476aed2</update_guid>
+        <update_guid_history>53e742bfe16fca1095c33577f476aed2:1688413515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin Welcome Kit.Mouse">dbf7c2bf836fca10b3cacb65eeaad32d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 05:38:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>6d5c84c141e14f24877e692316264b90</sys_id>
+        <sys_metadata>1be742bf836fca10b3cacb65eeaad3ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.Mouse</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1be742bf836fca10b3cacb65eeaad3ce</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1be742bf836fca10b3cacb65eeaad3ce">53e742bf836fca10b3cacb65eeaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 05:38:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

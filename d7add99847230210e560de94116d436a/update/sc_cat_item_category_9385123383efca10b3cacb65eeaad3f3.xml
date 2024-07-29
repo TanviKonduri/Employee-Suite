@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Dell Model 1">ee5ccc1e83afc210b3cacb65eeaad33e</sc_cat_item>
-        <sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category>
+        <sc_cat_item display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sc_cat_item>
+        <sc_category display_value="Developer Welcome Kit">f34f585683230610b3cacb65eeaad358</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-24 05:22:32</sys_created_on>
-        <sys_id>d45414d683efc210b3cacb65eeaad36b</sys_id>
+        <sys_created_on>2024-07-29 06:38:03</sys_created_on>
+        <sys_id>9385123383efca10b3cacb65eeaad3f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>del.Employee Self Service</sys_name>
+        <sys_name>Developer Welcome Kit.Apple Airpods Max</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name>sc_cat_item_category_d45414d683efc210b3cacb65eeaad36b</sys_update_name>
+        <sys_update_name>sc_cat_item_category_9385123383efca10b3cacb65eeaad3f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 05:22:32</sys_updated_on>
+        <sys_updated_on>2024-07-29 06:38:03</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

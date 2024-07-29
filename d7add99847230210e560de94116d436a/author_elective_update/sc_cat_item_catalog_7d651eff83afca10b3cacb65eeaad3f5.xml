@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sc_cat_item>
+        <sc_catalog display_value="Laptop">173005fd9397c210c5063a6efaba10b3</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:37:24</sys_created_on>
+        <sys_id>7d651eff83afca10b3cacb65eeaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Apple Airpods Max</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7d651eff83afca10b3cacb65eeaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 06:37:24</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_catalog_7d651eff83afca10b3cacb65eeaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sc_cat_item><sc_catalog display_value="Laptop">173005fd9397c210c5063a6efaba10b3</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 06:37:24</sys_created_on><sys_id>7d651eff83afca10b3cacb65eeaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptop.Apple Airpods Max</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_catalog_7d651eff83afca10b3cacb65eeaad3f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 06:37:24</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>927954999</payload_hash>
+        <record_name>Laptop.Apple Airpods Max</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:37:24</sys_created_on>
+        <sys_id>79651eff83afca10b3cacb65eeaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fd3543ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 06:37:24</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>79651efffdafca104eeb9a3b9772b2f8</update_guid>
+        <update_guid_history>79651efffdafca104eeb9a3b9772b2f8:927954999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptop.Apple Airpods Max">9785123383efca10b3cacb65eeaad3dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:38:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>53359233077d4447904b7614aef6d871</sys_id>
+        <sys_metadata>7d651eff83afca10b3cacb65eeaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Apple Airpods Max</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7d651eff83afca10b3cacb65eeaad3f5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7d651eff83afca10b3cacb65eeaad3f5">79651eff83afca10b3cacb65eeaad3f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 06:38:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
