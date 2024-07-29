@@ -33,6 +33,7 @@
             </choice>
         </element>
         <element label="Taken" max_length="40" name="taken" type="float"/>
+        <element label="Took" max_length="40" name="took" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Total leaves" max_length="40" name="total_leaves" type="string"/>
         <index name="index">
             <element name="requested_by"/>

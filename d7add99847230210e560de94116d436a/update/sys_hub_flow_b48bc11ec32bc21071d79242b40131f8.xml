@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=269252000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=434341000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,13 +15,13 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>testttt</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["taken"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["balance"]}},{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["employee"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"cf66b234-5303-40d9-85e8-11a9513010a4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.approval","label":"Trigger - Record Created or Updated➛Leave Request Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"approval","choices":[{"label":"Approved","reference":false,"used":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Not Yet Requested","reference":false,"used":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"nyr","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Rejected","reference":false,"used":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Requested","reference":false,"used":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"ba88ae26-af0c-4c44-90c0-3b3f892969bc":["condition"]}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["leave_type"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["taken"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["balance"]}},{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["employee"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"cf66b234-5303-40d9-85e8-11a9513010a4":["record"],"96a57c3f-36cb-4abb-95c5-33cd82bbfcdb":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.approval","label":"Trigger - Record Created or Updated➛Leave Request Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"approval","choices":[{"label":"Approved","reference":false,"used":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Not Yet Requested","reference":false,"used":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"nyr","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Rejected","reference":false,"used":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Requested","reference":false,"used":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"ba88ae26-af0c-4c44-90c0-3b3f892969bc":["condition"]}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["leave_type"]}}]</label_cache>
         <master_snapshot>af7688d3832b0a101036c065eeaad3cb</master_snapshot>
         <name>testttt</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>011310d7836b0a101036c065eeaad376</remote_trigger_id>
+        <remote_trigger_id>0942de77832fca101036c065eeaad3b8</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b48bc11ec32bc21071d79242b40131f8</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>testttt</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -43,14 +43,14 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_b48bc11ec32bc21071d79242b40131f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:48</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b48bc11ec32bc21071d79242b40131f8"/>
     <sys_variable_value action="delete_multiple" query="document_key=b48bc11ec32bc21071d79242b40131f8"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1210077_employ_0_leave_request">approval=requested<item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+        <condition table="x_1210077_employ_0_leave_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -63,31 +63,31 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-27 07:51:02</sys_created_on>
+        <sys_created_on>2024-07-29 06:23:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>011310d7836b0a101036c065eeaad376</sys_id>
+        <sys_id>0942de77832fca101036c065eeaad3b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 07:51:02</sys_updated_on>
+        <sys_updated_on>2024-07-29 06:23:41</sys_updated_on>
         <table>x_1210077_employ_0_leave_request</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>b48bc11ec32bc21071d79242b40131f8</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-27 12:11:15</sys_created_on>
-        <sys_id>38ae055783af0a101036c065eeaad344</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-07-29 10:02:45</sys_created_on>
+        <sys_id>7d64473f83230e101036c065eeaad351</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
-        <trigger display_value="">011310d7836b0a101036c065eeaad376</trigger>
+        <sys_updated_on>2024-07-29 10:34:53</sys_updated_on>
+        <trigger display_value="">0942de77832fca101036c065eeaad3b8</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b48bc11ec32bc21071d79242b40131f8^sys_idNOT IN38ae055783af0a101036c065eeaad344"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b48bc11ec32bc21071d79242b40131f8^sys_idNOT IN7d64473f83230e101036c065eeaad351"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=b48bc11ec32bc21071d79242b40131f8^sys_idNOT IN21f48453832b0a101036c065eeaad369"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -98,10 +98,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:49:21</sys_created_on>
         <sys_id>21f48453832b0a101036c065eeaad369</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -116,10 +116,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:49:21</sys_created_on>
         <sys_id>29f48453832b0a101036c065eeaad36a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 07:50:52</sys_updated_on>
-        <value>approval=requested</value>
+        <sys_updated_on>2024-07-29 06:23:33</sys_updated_on>
+        <value>^EQ</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -229,14 +229,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:54:12</sys_created_on>
         <sys_id>101600d3832b0a101036c065eeaad37a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -313,14 +313,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:54:12</sys_created_on>
         <sys_id>a41600d3832b0a101036c065eeaad3a8</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -460,10 +460,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:49:35</sys_created_on>
         <sys_id>a0058453832b0a101036c065eeaad3e0</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:03:38</sys_updated_on>
         <ui_id>cf66b234-5303-40d9-85e8-11a9513010a4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0058453832b0a101036c065eeaad3e0"/>
@@ -475,9 +475,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:54:52</sys_created_on>
         <sys_id>86360c93832b0a101036c065eeaad302</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 06:54:52</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:37</sys_updated_on>
         <value>total_leaves=30</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
@@ -532,7 +532,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=a0058453832b0a101036c065eeaad3e0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a0058453832b0a101036c065eeaad3e0^sys_idNOT IN9fa3923b832fca101036c065eeaad3a1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>a0058453832b0a101036c065eeaad3e0</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"total_leaves":{"scriptActive":true,"savedValue":"30"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:29:51</sys_created_on>
+        <sys_id>9fa3923b832fca101036c065eeaad3a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 10:02:37</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0058453832b0a101036c065eeaad3e0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -550,10 +563,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 07:19:10</sys_created_on>
         <sys_id>cecbc41f832b0a101036c065eeaad35f</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:03:38</sys_updated_on>
         <ui_id>9acf7fed-4e86-4d54-860d-e8090c8f667d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cecbc41f832b0a101036c065eeaad35f"/>
@@ -624,10 +637,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 07:17:23</sys_created_on>
         <sys_id>4c6b8cdb832b0a101036c065eeaad303</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
         <ui_id>ba88ae26-af0c-4c44-90c0-3b3f892969bc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -763,7 +776,7 @@
         <description/>
         <flow_priority/>
         <internal_name>testttt</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["taken"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["balance"]}},{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["employee"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"cf66b234-5303-40d9-85e8-11a9513010a4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.approval","label":"Trigger - Record Created or Updated➛Leave Request Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"approval","choices":[{"label":"Approved","reference":false,"used":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Not Yet Requested","reference":false,"used":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"nyr","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Rejected","reference":false,"used":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Requested","reference":false,"used":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"ba88ae26-af0c-4c44-90c0-3b3f892969bc":["condition"]}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["leave_type"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["taken"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["balance"]}},{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["employee"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"cf66b234-5303-40d9-85e8-11a9513010a4":["record"],"96a57c3f-36cb-4abb-95c5-33cd82bbfcdb":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.approval","label":"Trigger - Record Created or Updated➛Leave Request Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"approval","choices":[{"label":"Approved","reference":false,"used":false,"image":"","rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Not Yet Requested","reference":false,"used":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"nyr","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Rejected","reference":false,"used":false,"image":"","rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Requested","reference":false,"used":false,"image":"","rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"ba88ae26-af0c-4c44-90c0-3b3f892969bc":["condition"]}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"9acf7fed-4e86-4d54-860d-e8090c8f667d":["leave_type"]}}]</label_cache>
         <master>true</master>
         <name>testttt</name>
         <natlang/>
@@ -780,7 +793,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af7688d3832b0a101036c065eeaad3cb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -788,7 +801,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=af7688d3832b0a101036c065eeaad3cb"/>
@@ -803,10 +816,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>6376c8d3832b0a101036c065eeaad317</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -835,10 +848,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>af76c8d3832b0a101036c065eeaad318</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 07:51:02</sys_updated_on>
-        <value>approval=requested</value>
+        <sys_updated_on>2024-07-29 06:23:41</sys_updated_on>
+        <value>^EQ</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -934,14 +947,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>2776c8d3832b0a101036c065eeaad304</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:14</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1018,14 +1031,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>ab7688d3832b0a101036c065eeaad3da</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:14</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1165,10 +1178,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>2f76c8d3832b0a101036c065eeaad314</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <ui_id>cf66b234-5303-40d9-85e8-11a9513010a4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2f76c8d3832b0a101036c065eeaad314"/>
@@ -1194,9 +1207,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:03</sys_created_on>
         <sys_id>ab76c8d3832b0a101036c065eeaad316</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 06:56:03</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <value>total_leaves=30</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
@@ -1237,7 +1250,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2f76c8d3832b0a101036c065eeaad314"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f76c8d3832b0a101036c065eeaad314^sys_idNOT INaeb3563b832fca101036c065eeaad315"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>2f76c8d3832b0a101036c065eeaad314</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"total_leaves":{"scriptActive":true,"savedValue":"30"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:30:05</sys_created_on>
+        <sys_id>aeb3563b832fca101036c065eeaad315</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f76c8d3832b0a101036c065eeaad314"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1255,10 +1281,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 07:19:59</sys_created_on>
         <sys_id>82fb8c1f832b0a101036c065eeaad35f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <ui_id>9acf7fed-4e86-4d54-860d-e8090c8f667d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=82fb8c1f832b0a101036c065eeaad35f"/>
@@ -1329,10 +1355,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 07:19:59</sys_created_on>
         <sys_id>c2fb8c1f832b0a101036c065eeaad361</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 12:11:15</sys_updated_on>
+        <sys_updated_on>2024-07-29 10:02:44</sys_updated_on>
         <ui_id>ba88ae26-af0c-4c44-90c0-3b3f892969bc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1464,18 +1490,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6376c8d3832b0a101036c065eeaad328","name":"plan","plan_signature":null}}</plan>
         <plan_id>b48bc11ec32bc21071d79242b40131f8</plan_id>
-        <snapshot>af7688d3832b0a101036c065eeaad3cb</snapshot>
+        <snapshot>be940f3f83230e101036c065eeaad3db</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-27 06:56:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6376c8d3832b0a101036c065eeaad328</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-27 07:51:02</sys_updated_on>
-        <trigger display_value="">011310d7836b0a101036c065eeaad376</trigger>
+        <sys_updated_on>2024-07-29 10:02:45</sys_updated_on>
+        <trigger display_value="">0942de77832fca101036c065eeaad3b8</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b48bc11ec32bc21071d79242b40131f8"/>
 </record_update>
