@@ -1,86 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="19eeb629c3e3021071d79242b40131e9" sys_domain="global" table="x_1210077_employ_0_employee_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>0</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:52:22</sys_created_on>
-            <sys_id>15eeb629c3e3021071d79242b40131ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:52:22</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_name</element>
-            <position>1</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:54:19</sys_created_on>
-            <sys_id>025ff269c327021071d79242b401310a</sys_id>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 08:53:45</sys_created_on>
+            <sys_id>b03e7f4083fb4e10b3cacb65eeaad384</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:54:19</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 08:53:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>2</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:55:04</sys_created_on>
-            <sys_id>098ff669c327021071d79242b4013175</sys_id>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 08:53:45</sys_created_on>
+            <sys_id>b83e7f4083fb4e10b3cacb65eeaad384</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:55:04</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 08:53:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mobile_number</element>
-            <position>3</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:55:22</sys_created_on>
-            <sys_id>e19f3669c327021071d79242b4013180</sys_id>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 08:53:45</sys_created_on>
+            <sys_id>b03e7f4083fb4e10b3cacb65eeaad385</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:55:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 08:53:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>joinng_date</element>
-            <position>4</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:56:00</sys_created_on>
-            <sys_id>a6bfba69c327021071d79242b4013155</sys_id>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 08:53:45</sys_created_on>
+            <sys_id>b83e7f4083fb4e10b3cacb65eeaad385</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:56:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 08:53:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>5</position>
-            <sys_created_by>Manikanta.g</sys_created_by>
-            <sys_created_on>2024-07-22 09:56:12</sys_created_on>
-            <sys_id>6dcf7e69c327021071d79242b40131a0</sys_id>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 08:53:45</sys_created_on>
+            <sys_id>b03e7f4083fb4e10b3cacb65eeaad386</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1210077_employ_0_employee_details" sys_domain="global" view="Default view">19eeb629c3e3021071d79242b40131e9</sys_ui_section>
-            <sys_updated_by>Manikanta.g</sys_updated_by>
-            <sys_updated_on>2024-07-22 09:56:12</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 08:53:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

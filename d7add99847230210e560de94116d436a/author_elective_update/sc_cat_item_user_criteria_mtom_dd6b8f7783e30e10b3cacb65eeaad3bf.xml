@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 10:33:18</sys_created_on>
+        <sys_id>dd6b8f7783e30e10b3cacb65eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apple Airpods Max.Users with 'itil' role</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_dd6b8f7783e30e10b3cacb65eeaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 10:33:18</sys_updated_on>
+        <user_criteria display_value="Users with 'itil' role">2f137fb2eb303010e0ef83c45e52287c</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_dd6b8f7783e30e10b3cacb65eeaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Apple Airpods Max">03f4d2ff83afca10b3cacb65eeaad337</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 10:33:18</sys_created_on><sys_id>dd6b8f7783e30e10b3cacb65eeaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Apple Airpods Max.Users with 'itil' role</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_dd6b8f7783e30e10b3cacb65eeaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 10:33:18</sys_updated_on><user_criteria display_value="Users with 'itil' role">2f137fb2eb303010e0ef83c45e52287c</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1999111026</payload_hash>
+        <record_name>Apple Airpods Max.Users with 'itil' role</record_name>
+        <reverted_from/>
+        <source>fad3633b83670e10b3cacb65eeaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 12:20:17</sys_created_on>
+        <sys_id>20e3673b83670e10b3cacb65eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fe6f2e410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 12:20:17</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>9d6b8f7778e30e101113b5b5e39c9ec2</update_guid>
+        <update_guid_history>9d6b8f7778e30e101113b5b5e39c9ec2:1999111026,fb9323f719670e1043245a19aad77aee:1156779494,9d6b8f7778e30e101113b5b5e39c9ec2:1999111026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Apple Airpods Max.Users with 'itil' role">4f602b88833b4e10b3cacb65eeaad3bf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-30 06:43:39</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>2aa22049ee0640a889458e306c59e749</sys_id>
+        <sys_metadata>dd6b8f7783e30e10b3cacb65eeaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apple Airpods Max.Users with 'itil' role</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_dd6b8f7783e30e10b3cacb65eeaad3bf</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_dd6b8f7783e30e10b3cacb65eeaad3bf">20e3673b83670e10b3cacb65eeaad3a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-30 06:43:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
