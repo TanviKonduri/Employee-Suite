@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="HeadPhones">6544027b836fca10b3cacb65eeaad39f</sc_cat_item>
+        <sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 05:31:23</sys_created_on>
+        <sys_id>22460efb836fca10b3cacb65eeaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.HeadPhones</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_category_22460efb836fca10b3cacb65eeaad383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 05:31:23</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_category_22460efb836fca10b3cacb65eeaad383</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="HeadPhones">6544027b836fca10b3cacb65eeaad39f</sc_cat_item><sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 05:31:23</sys_created_on><sys_id>22460efb836fca10b3cacb65eeaad383</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admin Welcome Kit.HeadPhones</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_category_22460efb836fca10b3cacb65eeaad383</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 05:31:23</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-2016275045</payload_hash>
+        <record_name>Admin Welcome Kit.HeadPhones</record_name>
+        <reverted_from/>
+        <source>fad3633b83670e10b3cacb65eeaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 12:20:15</sys_created_on>
+        <sys_id>37d3273b83670e10b3cacb65eeaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fe6f24800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 12:20:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6a460efb2f6fca10b73fe2f717f83686</update_guid>
+        <update_guid_history>6a460efb2f6fca10b73fe2f717f83686:-2016275045,1ca363f793670e1084556164b2c1d8ec:784080911,6a460efb2f6fca10b73fe2f717f83686:-2016275045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin Welcome Kit.HeadPhones">de30d8208333ce10b3cacb65eeaad36d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:50:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>d5dd222cd51640e0b58548ff5fc74f90</sys_id>
+        <sys_metadata>22460efb836fca10b3cacb65eeaad383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.HeadPhones</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_22460efb836fca10b3cacb65eeaad383</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_22460efb836fca10b3cacb65eeaad383">37d3273b83670e10b3cacb65eeaad3c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:50:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

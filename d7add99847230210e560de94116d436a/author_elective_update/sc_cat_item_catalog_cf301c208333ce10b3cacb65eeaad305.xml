@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="HeadPhones">6544027b836fca10b3cacb65eeaad39f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:51:02</sys_created_on>
+        <sys_id>cf301c208333ce10b3cacb65eeaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.HeadPhones</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_cf301c208333ce10b3cacb65eeaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:51:02</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_catalog_cf301c208333ce10b3cacb65eeaad305</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="HeadPhones">6544027b836fca10b3cacb65eeaad39f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 04:51:02</sys_created_on><sys_id>cf301c208333ce10b3cacb65eeaad305</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.HeadPhones</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_catalog_cf301c208333ce10b3cacb65eeaad305</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 04:51:02</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>14515405</payload_hash>
+        <record_name>Service Catalog.HeadPhones</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:51:02</sys_created_on>
+        <sys_id>43301c208333ce10b3cacb65eeaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910720979a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:51:02</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>8b301c20ec33ce10c96b27acee365b08</update_guid>
+        <update_guid_history>8b301c20ec33ce10c96b27acee365b08:14515405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.HeadPhones">87301c208333ce10b3cacb65eeaad337</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:51:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2c3589236ba34eec90293016d9d62344</sys_id>
+        <sys_metadata>cf301c208333ce10b3cacb65eeaad305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.HeadPhones</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="HeadPhones">6544027b836fca10b3cacb65eeaad39f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_cf301c208333ce10b3cacb65eeaad305</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_cf301c208333ce10b3cacb65eeaad305">43301c208333ce10b3cacb65eeaad316</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:51:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
