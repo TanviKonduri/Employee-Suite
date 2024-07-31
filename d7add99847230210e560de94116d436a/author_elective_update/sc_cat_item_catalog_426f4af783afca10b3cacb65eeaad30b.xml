@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Welcome Kit">3c5f06f383afca10b3cacb65eeaad3a7</sc_cat_item>
+        <sc_catalog display_value="Laptop">173005fd9397c210c5063a6efaba10b3</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:11:12</sys_created_on>
+        <sys_id>426f4af783afca10b3cacb65eeaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Welcome Kit</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_426f4af783afca10b3cacb65eeaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 06:11:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_catalog_426f4af783afca10b3cacb65eeaad30b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Welcome Kit">3c5f06f383afca10b3cacb65eeaad3a7</sc_cat_item><sc_catalog display_value="Laptop">173005fd9397c210c5063a6efaba10b3</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 06:11:12</sys_created_on><sys_id>426f4af783afca10b3cacb65eeaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptop.Welcome Kit</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_catalog_426f4af783afca10b3cacb65eeaad30b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 06:11:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>163017314</payload_hash>
+        <record_name>Laptop.Welcome Kit</record_name>
+        <reverted_from/>
+        <source>fad3633b83670e10b3cacb65eeaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 12:20:14</sys_created_on>
+        <sys_id>e3d3273b83670e10b3cacb65eeaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fe6f21a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 12:20:14</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>026f4af77aafca10fdc9e2b22662e00e</update_guid>
+        <update_guid_history>026f4af77aafca10fdc9e2b22662e00e:163017314,85a3e3f73c670e100ff5f3c66bf8876e:1069301799,026f4af77aafca10fdc9e2b22662e00e:163017314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptop.Welcome Kit">dd4218e08333ce10b3cacb65eeaad3b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:59:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0d4a97454ab949f28d19c4a94bf89609</sys_id>
+        <sys_metadata>426f4af783afca10b3cacb65eeaad30b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop.Welcome Kit</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent display_value="Welcome Kit 1">3c5f06f383afca10b3cacb65eeaad3a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_426f4af783afca10b3cacb65eeaad30b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_426f4af783afca10b3cacb65eeaad30b">e3d3273b83670e10b3cacb65eeaad369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

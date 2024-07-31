@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Welcome Kit">3c5f06f383afca10b3cacb65eeaad3a7</sc_cat_item>
+        <sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 06:11:12</sys_created_on>
+        <sys_id>466f4af783afca10b3cacb65eeaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.Welcome Kit</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sc_cat_item_category_466f4af783afca10b3cacb65eeaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 06:11:12</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sc_cat_item_category_466f4af783afca10b3cacb65eeaad30f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Welcome Kit">3c5f06f383afca10b3cacb65eeaad3a7</sc_cat_item><sc_category display_value="Admin Welcome Kit">c384cd3593d7c210c5063a6efaba10e5</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-29 06:11:12</sys_created_on><sys_id>466f4af783afca10b3cacb65eeaad30f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admin Welcome Kit.Welcome Kit</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sc_cat_item_category_466f4af783afca10b3cacb65eeaad30f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-29 06:11:12</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>974031237</payload_hash>
+        <record_name>Admin Welcome Kit.Welcome Kit</record_name>
+        <reverted_from/>
+        <source>fad3633b83670e10b3cacb65eeaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-29 12:20:15</sys_created_on>
+        <sys_id>bbd3273b83670e10b3cacb65eeaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190fe6f24f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-29 12:20:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c26f4af7fcafca1022fa8454b9cd0512</update_guid>
+        <update_guid_history>c26f4af7fcafca1022fa8454b9cd0512:974031237,c5a3e3f726670e1003cccb66aa05f76a:621629706,c26f4af7fcafca1022fa8454b9cd0512:974031237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin Welcome Kit.Welcome Kit">91425ce08333ce10b3cacb65eeaad3c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 04:59:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>02fe8b600d4c4800bbb2b01a38400000</sys_id>
+        <sys_metadata>466f4af783afca10b3cacb65eeaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Welcome Kit.Welcome Kit</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_466f4af783afca10b3cacb65eeaad30f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_466f4af783afca10b3cacb65eeaad30f">bbd3273b83670e10b3cacb65eeaad3d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 04:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
