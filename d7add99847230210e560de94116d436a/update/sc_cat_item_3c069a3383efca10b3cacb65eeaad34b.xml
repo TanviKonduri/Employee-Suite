@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Developer Welcome Kit">f34f585683230610b3cacb65eeaad358</category>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -52,7 +52,7 @@
         <recurring_frequency/>
         <request_method>request</request_method>
         <roles/>
-        <sc_catalogs>173005fd9397c210c5063a6efaba10b3</sc_catalogs>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template>
@@ -64,21 +64,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 06:40:04</sys_created_on>
         <sys_id>3c069a3383efca10b3cacb65eeaad34b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Apple Mouse</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sc_cat_item_3c069a3383efca10b3cacb65eeaad34b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-29 06:41:48</sys_updated_on>
+        <sys_updated_on>2024-07-31 05:06:25</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>5</version>
+        <version>7</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
