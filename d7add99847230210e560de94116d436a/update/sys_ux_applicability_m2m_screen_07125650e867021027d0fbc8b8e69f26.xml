@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="">8b125650f1670210f4e750b35dc5bf2e</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">8f1256500d6702102f9734d4d29e5825</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-18 09:24:20</sys_created_on>
+        <sys_id>07125650e867021027d0fbc8b8e69f26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_07125650e867021027d0fbc8b8e69f26</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-18 09:24:20</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

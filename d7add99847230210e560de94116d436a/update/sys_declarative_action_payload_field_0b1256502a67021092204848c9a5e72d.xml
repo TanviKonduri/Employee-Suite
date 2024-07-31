@@ -39,7 +39,7 @@
         <label>sysId</label>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <model/>
+        <model display_value="Approve">8f1256502c67021005bd518592e9872d</model>
         <model_id>8f1256502c67021005bd518592e9872d</model_id>
         <model_table/>
         <name>var__m_sys_declarative_action_payload_field_8f1256502c67021005bd518592e9872d</name>

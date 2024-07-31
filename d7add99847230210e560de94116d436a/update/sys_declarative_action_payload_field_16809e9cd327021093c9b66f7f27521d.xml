@@ -39,7 +39,7 @@
         <label>sysId</label>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <model/>
+        <model display_value="Reject">1a809e9cae27021078d1bb9287752c1f</model>
         <model_id>1a809e9cae27021078d1bb9287752c1f</model_id>
         <model_table/>
         <name>var__m_sys_declarative_action_payload_field_1a809e9cae27021078d1bb9287752c1f</name>

@@ -4,13 +4,13 @@
             <element>time_zone</element>
             <position>0</position>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:59</sys_created_on>
-            <sys_id>b438ded8d0670210f8ee571aa4f2780b</sys_id>
+            <sys_created_on>2024-07-18 09:17:30</sys_created_on>
+            <sys_id>5a809e9c5927021080afdf686809cf1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f038ded89067021022f62ea2590d670b">3038ded809670210033968de2da9a10b</sys_ui_section>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:59</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:59</sys_created_on>
-            <sys_id>7838ded89d6702107a0db3d99dd21d0b</sys_id>
+            <sys_created_on>2024-07-18 09:17:30</sys_created_on>
+            <sys_id>1e809e9c492702101756e468781fbd1a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f038ded89067021022f62ea2590d670b">3038ded809670210033968de2da9a10b</sys_ui_section>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:59</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>preferred_language</element>
             <position>2</position>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:59</sys_created_on>
-            <sys_id>fc38ded88a670210c6d3562dffdbca09</sys_id>
+            <sys_created_on>2024-07-18 09:17:30</sys_created_on>
+            <sys_id>92809e9c53270210eafd795fb5c83519</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f038ded89067021022f62ea2590d670b">3038ded809670210033968de2da9a10b</sys_ui_section>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:59</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -49,7 +49,7 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:59</sys_created_on>
+            <sys_created_on>2024-07-18 09:17:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3038ded809670210033968de2da9a10b</sys_id>
@@ -61,7 +61,7 @@
             <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
             <sys_update_name>sys_ui_section_3038ded809670210033968de2da9a10b</sys_update_name>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:59</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:30</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Custom portal settings (x_1210077_employ_0)" name="custom_portal_settings_x_1210077_employ_0">f038ded89067021022f62ea2590d670b</view>

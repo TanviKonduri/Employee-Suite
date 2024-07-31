@@ -39,7 +39,7 @@
         <label>table</label>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <model/>
+        <model display_value="Reject">03125650b6670210b02571c21d6aa42f</model>
         <model_id>03125650b6670210b02571c21d6aa42f</model_id>
         <model_table/>
         <name>var__m_sys_declarative_action_payload_field_03125650b6670210b02571c21d6aa42f</name>

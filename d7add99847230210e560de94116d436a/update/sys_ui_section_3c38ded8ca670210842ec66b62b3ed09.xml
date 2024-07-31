@@ -4,13 +4,13 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
-            <sys_id>7438ded8f367021063e8010a8802980a</sys_id>
+            <sys_created_on>2024-07-18 09:17:25</sys_created_on>
+            <sys_id>1a809e9c30270210bc683586fa50e619</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="b038ded823670210e94fa7c90c98b40a">3c38ded8ca670210842ec66b62b3ed09</sys_ui_section>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>sysapproval</element>
             <position>1</position>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
-            <sys_id>7c38ded86a670210decb767352340a0a</sys_id>
+            <sys_created_on>2024-07-18 09:17:25</sys_created_on>
+            <sys_id>12809e9c7a270210f56655b22313551a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="b038ded823670210e94fa7c90c98b40a">3c38ded8ca670210842ec66b62b3ed09</sys_ui_section>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -35,7 +35,7 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2024-07-18 09:50:55</sys_created_on>
+            <sys_created_on>2024-07-18 09:17:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3c38ded8ca670210842ec66b62b3ed09</sys_id>
@@ -47,7 +47,7 @@
             <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
             <sys_update_name>sys_ui_section_3c38ded8ca670210842ec66b62b3ed09</sys_update_name>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2024-07-18 09:50:55</sys_updated_on>
+            <sys_updated_on>2024-07-18 09:17:25</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Custom portal (x_1210077_employ_0)" name="custom_portal_approval_x_1210077_employ_0">b038ded823670210e94fa7c90c98b40a</view>
