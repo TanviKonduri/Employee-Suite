@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">fea269b8837b0250b3cacb65eeaad394</sp_column>
+        <sp_widget display_value="Actions Widget">38a3a159530201101865ddeeff7b1263</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:29:55</sys_created_on>
+        <sys_id>d6b2e530837b0250b3cacb65eeaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sp_instance_d6b2e530837b0250b3cacb65eeaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:29:55</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d6b2e530837b0250b3cacb65eeaad39d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sp_instance_d6b2e530837b0250b3cacb65eeaad39d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">fea269b8837b0250b3cacb65eeaad394</sp_column><sp_widget display_value="Actions Widget">38a3a159530201101865ddeeff7b1263</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 05:29:55</sys_created_on><sys_id>d6b2e530837b0250b3cacb65eeaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sp_instance_d6b2e530837b0250b3cacb65eeaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 05:29:55</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d6b2e530837b0250b3cacb65eeaad39d"/></record_update>]]></payload>
+        <payload_hash>2005695350</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:29:55</sys_created_on>
+        <sys_id>e2b2e530837b0250b3cacb65eeaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910c6a8f400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:29:55</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a6b2e530477b02509e7320c752fa4c9f</update_guid>
+        <update_guid_history>a6b2e530477b02509e7320c752fa4c9f:2005695350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2ac2293c837b0250b3cacb65eeaad3ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:30:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>501abacda8cb41c098ab048523159100</sys_id>
+        <sys_metadata>d6b2e530837b0250b3cacb65eeaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sp_instance_d6b2e530837b0250b3cacb65eeaad39d</sys_update_name>
+        <sys_update_version display_value="sp_instance_d6b2e530837b0250b3cacb65eeaad39d">e2b2e530837b0250b3cacb65eeaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:30:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

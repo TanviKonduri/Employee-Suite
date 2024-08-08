@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Test - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="test">e4a2a530837b0250b3cacb65eeaad341</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:29:31</sys_created_on>
+        <sys_id>e8a2653c837b0250b3cacb65eeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test - Container 1</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sp_container_e8a2653c837b0250b3cacb65eeaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:29:31</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>6d8f8c1adb9639502f082a5913961961</instance_id>
+        <instance_name>dev205975</instance_name>
+        <name>sp_container_e8a2653c837b0250b3cacb65eeaad38c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Test - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="test">e4a2a530837b0250b3cacb65eeaad341</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 05:29:31</sys_created_on><sys_id>e8a2653c837b0250b3cacb65eeaad38c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test - Container 1</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sp_container_e8a2653c837b0250b3cacb65eeaad38c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 05:29:31</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>516904635</payload_hash>
+        <record_name>Test - Container 1</record_name>
+        <reverted_from/>
+        <source>ecd9a1d493630210c5063a6efaba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:29:31</sys_created_on>
+        <sys_id>e0a2653c837b0250b3cacb65eeaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910c6a2f4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:29:31</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a4a2653ca27b0250452da0f1e2fb948e</update_guid>
+        <update_guid_history>a4a2653ca27b0250452da0f1e2fb948e:516904635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test - Container 1">62c2a530837b0250b3cacb65eeaad34f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 05:30:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1aa8ebeb36c6459e8686bae57facb204</sys_id>
+        <sys_metadata>e8a2653c837b0250b3cacb65eeaad38c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test - Container 1</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sp_container_e8a2653c837b0250b3cacb65eeaad38c</sys_update_name>
+        <sys_update_version display_value="sp_container_e8a2653c837b0250b3cacb65eeaad38c">e0a2653c837b0250b3cacb65eeaad38f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:30:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
