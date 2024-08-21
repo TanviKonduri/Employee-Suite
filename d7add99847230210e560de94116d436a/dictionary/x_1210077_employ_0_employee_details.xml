@@ -4,12 +4,12 @@
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Location" max_length="40" name="location" type="string"/>
         <element label="Role" max_length="40" name="role" type="string"/>
-        <element label="Document 1" max_length="40" name="document_1" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Document 1" max_length="40" name="document_1" type="file_attachment"/>
         <element label="Inter Board" max_length="40" name="inter_board" type="string"/>
         <element label="New Field 1" max_length="32" name="new_field_1" reference="sys_user" type="reference"/>
         <element label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
-        <element label="Document 2" max_length="40" name="document_2" type="file_attachment"/>
-        <element label="Document 3" max_length="40" name="document_3" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Document 2" max_length="40" name="document_2" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Document 3" max_length="40" name="document_3" type="file_attachment"/>
         <element label="X board" max_length="40" name="x_boar0" type="string"/>
         <element label="UG University" max_length="40" name="ug_universit0" type="string"/>
         <element label="First Name" max_length="40" name="employee_name" type="string"/>

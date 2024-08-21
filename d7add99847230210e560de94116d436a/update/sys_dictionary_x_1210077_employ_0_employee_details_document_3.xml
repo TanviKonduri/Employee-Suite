@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="document_3" table="x_1210077_employ_0_employee_details">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 

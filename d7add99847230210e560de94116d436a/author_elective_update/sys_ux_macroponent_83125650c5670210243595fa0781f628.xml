@@ -7382,7 +7382,7 @@
         <reverted_from/>
         <source>6a372d5047630210e560de94116d43ee</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-18 09:30:15</sys_created_on>
         <sys_id>ae7316d047670210e560de94116d43af</sys_id>

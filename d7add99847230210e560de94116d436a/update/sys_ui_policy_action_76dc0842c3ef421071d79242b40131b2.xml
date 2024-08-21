@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_choice_1</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-07-23 10:12:46</sys_updated_on>
         <table>x_1210077_employ_0_interviews</table>
         <ui_policy display_value="HR Result">90bc0442c3ef421071d79242b4013165</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=76dc0842c3ef421071d79242b40131b2"/>
 </record_update>

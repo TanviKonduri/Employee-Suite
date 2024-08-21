@@ -13,11 +13,11 @@
         <label>Interviews</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1210077_employ_0_interviews</name>
-        <number_ref display_value="INT">56a7de65c363021071d79242b40131e5</number_ref>
+        <number_ref display_value="">56a7de65c363021071d79242b40131e5</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">51d3fca43c31311068bcf327dfe37f33</super_class>
+        <super_class display_value="Task" name="task">4d0d6d1a8d30021087de63ac7f1f00b9</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-22 07:00:56</sys_created_on>

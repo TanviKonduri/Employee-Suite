@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 06:03:57</sys_created_on>
         <sys_id>fecd94d283230610b3cacb65eeaad3c0</sys_id>
@@ -51,7 +51,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Laptop.Dell Model 2</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
-        <sys_parent display_value="Dell Model 2">772c905283230610b3cacb65eeaad3f1</sys_parent>
+        <sys_parent display_value="">772c905283230610b3cacb65eeaad3f1</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>

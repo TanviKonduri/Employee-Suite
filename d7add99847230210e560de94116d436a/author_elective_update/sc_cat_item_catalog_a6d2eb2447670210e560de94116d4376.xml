@@ -41,7 +41,7 @@
         <update_guid_history>6ed2eb247a670210421c0030da947978:-2013792109</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalogs.User Registration">95546fa447670210e560de94116d4384</sys_audit_delete>
+        <sys_audit_delete display_value="">95546fa447670210e560de94116d4384</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 10:02:01</sys_created_on>

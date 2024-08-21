@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Employee Details" name="x_1210077_employ_0_employee_details">68ee3a29c327021071d79242b4013136</super_class>
+        <super_class display_value="x_1210077_employ_0_employee_details" name="x_1210077_employ_0_employee_details">68ee3a29c327021071d79242b4013136</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-22 10:41:22</sys_created_on>

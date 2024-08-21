@@ -126,7 +126,7 @@ async function handler({
         <reverted_from/>
         <source>6a372d5047630210e560de94116d43ee</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-07-18 09:24:30</sys_created_on>
         <sys_id>1a225a5047670210e560de94116d432c</sys_id>

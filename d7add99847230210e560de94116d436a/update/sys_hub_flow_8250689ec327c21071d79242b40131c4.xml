@@ -5,11 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=414000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
         <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>hr_confirmation</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.u_choice_1","label":"Trigger - Record Created or Updated➛Interviews Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interviews","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"rawLabel":"Confirmed","selected":false,"label":"Confirmed","missing":false,"image":"","reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"used":false,"rawLabel":"Cancel","selected":false,"label":"Cancel","missing":false,"image":"","reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"used":false,"rawLabel":"On Hold","selected":false,"label":"On Hold","missing":false,"image":"","reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}}]}]</label_cache>
         <master_snapshot>d3e1ac12c367c21071d79242b401310c</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 06:15:05</sys_created_on>
@@ -38,7 +43,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_8250689ec327c21071d79242b40131c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-24 08:48:45</sys_updated_on>
+        <sys_updated_on>2024-08-20 07:46:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8250689ec327c21071d79242b40131c4"/>
@@ -162,7 +167,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -433,6 +438,7 @@
         <comment/>
         <display_text/>
         <flow display_value="hr confirmation">8250689ec327c21071d79242b40131c4</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>5fe1e261-aee2-49f3-bc2b-35dda5e913f2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -505,6 +511,7 @@
         <flow display_value="hr confirmation">8250689ec327c21071d79242b40131c4</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -552,6 +559,7 @@
         <flow display_value="hr confirmation">8250689ec327c21071d79242b40131c4</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
@@ -585,6 +593,7 @@
         <flow display_value="hr confirmation">8250689ec327c21071d79242b40131c4</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
         <order>3</order>
@@ -716,11 +725,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>hr_confirmation</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.u_choice_1","label":"Trigger - Record Created or Updated➛Interviews Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interviews","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"rawLabel":"Confirmed","selected":false,"label":"Confirmed","missing":false,"image":"","reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"used":false,"rawLabel":"Cancel","selected":false,"label":"Cancel","missing":false,"image":"","reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"used":false,"rawLabel":"On Hold","selected":false,"label":"On Hold","missing":false,"image":"","reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}}]}]</label_cache>
         <master>true</master>
@@ -1079,6 +1090,7 @@
         <comment/>
         <display_text/>
         <flow display_value="hr confirmation">d3e1ac12c367c21071d79242b401310c</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id>5fe1e261-aee2-49f3-bc2b-35dda5e913f2</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1151,6 +1163,7 @@
         <flow display_value="hr confirmation">d3e1ac12c367c21071d79242b401310c</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1206,7 +1219,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d3e1ac12c367c21071d79242b401310c_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-24 06:22:01</sys_updated_on>
         <url/>
@@ -1229,7 +1242,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d3e1ac12c367c21071d79242b401310c_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-24 06:22:01</sys_updated_on>
         <url/>
@@ -1252,7 +1265,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d3e1ac12c367c21071d79242b401310c_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-24 06:22:01</sys_updated_on>
         <url/>
