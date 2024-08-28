@@ -489,6 +489,62 @@
                                             },
                                             "slot": null,
                                             "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "button_10",
+                                            "elementLabel": "Button 10",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Helllllllloooooooooo"
+                                                    }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Enter a label"
+                                                    }
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -519,6 +575,10 @@
                                                 },
                                                 {
                                                     "element_id": "button_9",
+                                                    "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "button_10",
                                                     "styles": {}
                                                 }
                                             ],
@@ -3618,6 +3678,9 @@
   "message" : "Got it",
   "comment" : ""
 }, {
+  "message" : "Helllllllloooooooooo",
+  "comment" : ""
+}, {
   "message" : "Hello,",
   "comment" : ""
 }, {
@@ -3767,14 +3830,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-08-28 09:22:55</sys_created_on>
         <sys_id>d6fa55ed909412106d9c96057ebd3e2e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_ux_macroponent_d6fa55ed909412106d9c96057ebd3e2e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 09:59:49</sys_updated_on>
+        <sys_updated_on>2024-08-28 10:20:23</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d6fa55ed909412106d9c96057ebd3e2e"/>
 </record_update>
