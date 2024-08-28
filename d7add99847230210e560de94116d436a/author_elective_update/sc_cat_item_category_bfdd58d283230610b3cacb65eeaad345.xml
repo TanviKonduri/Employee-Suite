@@ -41,7 +41,7 @@
         <update_guid_history>b7dd58d2d623061017222aec20bf3349:722180165,84c34d1651e306108273ff4cc96e5012:448108185,b7dd58d2d623061017222aec20bf3349:722180165</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="del.Dell Model 2">315dce3783afca10b3cacb65eeaad3c7</sys_audit_delete>
+        <sys_audit_delete display_value="">315dce3783afca10b3cacb65eeaad3c7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 06:02:11</sys_created_on>

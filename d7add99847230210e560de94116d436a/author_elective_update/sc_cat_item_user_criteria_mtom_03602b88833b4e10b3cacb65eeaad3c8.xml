@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 06:43:39</sys_created_on>
         <sys_id>8f602b88833b4e10b3cacb65eeaad3cb</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>8f602b88963b4e10ecbfc81ec53fc8ca:1669373949</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apple Airpods Max.Developer">9e706b88833b4e10b3cacb65eeaad3b4</sys_audit_delete>
+        <sys_audit_delete display_value="">9e706b88833b4e10b3cacb65eeaad3b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 06:43:52</sys_created_on>

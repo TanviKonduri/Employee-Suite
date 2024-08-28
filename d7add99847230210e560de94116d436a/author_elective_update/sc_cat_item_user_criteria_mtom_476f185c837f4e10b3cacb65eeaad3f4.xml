@@ -41,7 +41,7 @@
         <update_guid_history>c76f185cf07f4e10ef313bb1f4f24af7:69432702</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="HeadPhones.Users with 'Admin' Role">057f585c837f4e10b3cacb65eeaad3c0</sys_audit_delete>
+        <sys_audit_delete display_value="">057f585c837f4e10b3cacb65eeaad3c0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 11:19:02</sys_created_on>

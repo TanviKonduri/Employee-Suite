@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="11ff34a9c314121071d79242b40131f6" extends="x_1210077_employ_0_user_registration" label="Screening Test Info" max_length="40" name="x_1210077_employ_0_screening_test_info" type="collection"/>
+</database>

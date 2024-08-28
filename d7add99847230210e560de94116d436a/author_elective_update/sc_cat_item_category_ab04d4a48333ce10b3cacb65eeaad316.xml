@@ -41,7 +41,7 @@
         <update_guid_history>a304d4a4c533ce101a88faccbca8731a:485798678</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Water Bottle 2">f704d4a48333ce10b3cacb65eeaad353</sys_audit_delete>
+        <sys_audit_delete display_value="">f704d4a48333ce10b3cacb65eeaad353</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:07:44</sys_created_on>

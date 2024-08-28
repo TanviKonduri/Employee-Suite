@@ -41,7 +41,7 @@
         <update_guid_history>a2d64a3f576fca1017d1da54dc9a9f0e:1339296229</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Laptop.Water Bottle">e8070e3f836fca10b3cacb65eeaad3cc</sys_audit_delete>
+        <sys_audit_delete display_value="">e8070e3f836fca10b3cacb65eeaad3cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 05:34:31</sys_created_on>

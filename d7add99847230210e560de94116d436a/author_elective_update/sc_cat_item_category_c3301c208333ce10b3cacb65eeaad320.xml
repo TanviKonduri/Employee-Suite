@@ -41,7 +41,7 @@
         <update_guid_history>cb301c20a533ce103c51588448d55a23:78261445</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.HeadPhones">5b301c208333ce10b3cacb65eeaad344</sys_audit_delete>
+        <sys_audit_delete display_value="">5b301c208333ce10b3cacb65eeaad344</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:51:02</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>a8c3dc644133ce10f177f0d503271e57:1075010361</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Apple Mouse">59c310a48333ce10b3cacb65eeaad316</sys_audit_delete>
+        <sys_audit_delete display_value="">59c310a48333ce10b3cacb65eeaad316</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:06:28</sys_created_on>

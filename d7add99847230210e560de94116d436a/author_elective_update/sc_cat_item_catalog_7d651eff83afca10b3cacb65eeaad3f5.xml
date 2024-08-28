@@ -41,7 +41,7 @@
         <update_guid_history>79651efffdafca104eeb9a3b9772b2f8:927954999</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Laptop.Apple Airpods Max">9785123383efca10b3cacb65eeaad3dd</sys_audit_delete>
+        <sys_audit_delete display_value="">9785123383efca10b3cacb65eeaad3dd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 06:38:03</sys_created_on>

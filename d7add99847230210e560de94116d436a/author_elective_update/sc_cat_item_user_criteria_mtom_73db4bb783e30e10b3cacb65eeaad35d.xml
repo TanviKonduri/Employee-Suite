@@ -41,7 +41,7 @@
         <update_guid_history>b7db4bb7fee30e106f797f4623b82b6c:1952287142</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apple MacBook Pro.Users with 'itil' role">fceb4bb783e30e10b3cacb65eeaad3ae</sys_audit_delete>
+        <sys_audit_delete display_value="">fceb4bb783e30e10b3cacb65eeaad3ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 10:35:27</sys_created_on>

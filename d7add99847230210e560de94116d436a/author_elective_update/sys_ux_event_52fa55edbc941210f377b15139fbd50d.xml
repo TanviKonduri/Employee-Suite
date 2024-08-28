@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_d6fa55ed909412106d9c96057ebd3e2e</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Nav Item Selected Relay (Landing Page Default)</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi instance field"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub navigation route "},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-28 09:22:57</sys_created_on>
+        <sys_id>52fa55edbc941210f377b15139fbd50d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nav Item Selected Relay (Landing Page Default)</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_event_52fa55edbc941210f377b15139fbd50d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-28 09:22:57</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Suite">d7add99847230210e560de94116d436a</application>
+        <file_path/>
+        <instance_id>31d4630cdb12f9d44162684e139619a4</instance_id>
+        <instance_name>dev198403</instance_name>
+        <name>sys_ux_event_52fa55edbc941210f377b15139fbd50d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>NAV_ITEM_SELECTED_RELAY_d6fa55ed909412106d9c96057ebd3e2e</event_name><explicit_api_name/><interfaces/><label>Nav Item Selected Relay (Landing Page Default)</label><props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi instance field"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub navigation route "},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props><required_translations/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-08-28 09:22:57</sys_created_on><sys_id>52fa55edbc941210f377b15139fbd50d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nav Item Selected Relay (Landing Page Default)</sys_name><sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package><sys_policy/><sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope><sys_update_name>sys_ux_event_52fa55edbc941210f377b15139fbd50d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-08-28 09:22:57</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>-2117951859</payload_hash>
+        <record_name>Nav Item Selected Relay (Landing Page Default)</record_name>
+        <reverted_from/>
+        <source>f591983047220210e560de94116d4303</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-05-30 20:16:57</sys_created_on>
+        <sys_id>3263e52dc3d4121071d79242b4013164</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fcb2602a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Event</type>
+        <update_guid>fe63e52d89d412109e177584f2e23563</update_guid>
+        <update_guid_history>fe63e52d89d412109e177584f2e23563:-2117951859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-28 09:59:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>1039253464aa4e608316bee04b27f984</sys_id>
+        <sys_metadata>52fa55edbc941210f377b15139fbd50d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nav Item Selected Relay (Landing Page Default)</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_scope_delete display_value="">5344ae81d7774101bde71758731e27a9</sys_scope_delete>
+        <sys_update_name>sys_ux_event_52fa55edbc941210f377b15139fbd50d</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_52fa55edbc941210f377b15139fbd50d">3263e52dc3d4121071d79242b4013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-28 09:59:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

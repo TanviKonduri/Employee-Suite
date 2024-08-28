@@ -41,7 +41,6 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
-        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -111,6 +110,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>618d5bS2lUL._SX679_.jpg</file_name>
         <hash>d56c4a74ddfccc3ee09a4cc885f4360a04b56a9972c62ff40b04bffd78e0220a</hash>
         <image_height>679</image_height>

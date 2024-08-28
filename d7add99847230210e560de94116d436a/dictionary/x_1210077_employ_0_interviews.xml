@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4ea7de65c363021071d79242b4013169" extends="task" label="Interviews" max_length="40" name="x_1210077_employ_0_interviews" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Role" max_length="32" name="role" reference="sys_user_role" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="HR Result" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive_on_update="false" label="Confirmed" sequence="0" value="confirmed"/>
@@ -7,7 +9,5 @@
                 <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Role" max_length="32" name="role" reference="sys_user_role" type="reference"/>
-        <element label="Candidate" max_length="32" name="candidate" reference="sys_user" type="reference"/>
     </element>
 </database>

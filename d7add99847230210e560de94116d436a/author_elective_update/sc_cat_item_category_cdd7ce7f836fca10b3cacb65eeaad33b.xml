@@ -41,7 +41,7 @@
         <update_guid_history>45d7ce7f656fca10b4fbdfde64e6fa3f:1688413515</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Admin Welcome Kit.Mouse">9fe742bf836fca10b3cacb65eeaad3ac</sys_audit_delete>
+        <sys_audit_delete display_value="">9fe742bf836fca10b3cacb65eeaad3ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 05:38:32</sys_created_on>

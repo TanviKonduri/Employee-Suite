@@ -41,7 +41,7 @@
         <update_guid_history>a3cf00201833ce100b95592e99a2ad37:-616168129</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Mouse">d8df40208333ce10b3cacb65eeaad30e</sys_audit_delete>
+        <sys_audit_delete display_value="">d8df40208333ce10b3cacb65eeaad30e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:49:13</sys_created_on>

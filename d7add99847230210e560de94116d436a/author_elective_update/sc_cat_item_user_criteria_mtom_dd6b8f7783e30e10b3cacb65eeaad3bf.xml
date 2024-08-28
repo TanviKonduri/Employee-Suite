@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>fad3633b83670e10b3cacb65eeaad372</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 12:20:17</sys_created_on>
         <sys_id>20e3673b83670e10b3cacb65eeaad3a9</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>9d6b8f7778e30e101113b5b5e39c9ec2:1999111026,fb9323f719670e1043245a19aad77aee:1156779494,9d6b8f7778e30e101113b5b5e39c9ec2:1999111026</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apple Airpods Max.Users with 'itil' role">4f602b88833b4e10b3cacb65eeaad3bf</sys_audit_delete>
+        <sys_audit_delete display_value="">4f602b88833b4e10b3cacb65eeaad3bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 06:43:39</sys_created_on>

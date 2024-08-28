@@ -41,7 +41,7 @@
         <update_guid_history>df569273e9efca10a0a05d7a328bb78c:-1399541166</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Developer Welcome Kit.Apple Mouse">1266d27383efca10b3cacb65eeaad3a4</sys_audit_delete>
+        <sys_audit_delete display_value="">1266d27383efca10b3cacb65eeaad3a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 06:41:48</sys_created_on>

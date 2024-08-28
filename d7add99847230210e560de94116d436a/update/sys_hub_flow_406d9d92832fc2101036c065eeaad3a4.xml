@@ -5,15 +5,11 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=157584000,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
-        <display_name_after_preview/>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>leave_request_approval</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"8a7ec77b-3d31-4786-9ec4-1df8d7f3dda7":["record"],"2f0dafd4-6d68-4ebb-a0fb-f33d70e7a678":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"1d391453-33bf-4947-87aa-dce28c31b775":["leave_type"]}}]</label_cache>
         <master_snapshot>d38c2232832f86101036c065eeaad329</master_snapshot>
@@ -28,7 +24,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 10:41:43</sys_created_on>
@@ -43,7 +38,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_406d9d92832fc2101036c065eeaad3a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-29 12:00:16</sys_updated_on>
+        <sys_updated_on>2024-08-28 06:09:45</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=406d9d92832fc2101036c065eeaad3a4"/>
@@ -349,7 +344,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -453,7 +448,6 @@
         <comment/>
         <display_text/>
         <flow display_value="Leave Request approval">406d9d92832fc2101036c065eeaad3a4</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -617,13 +611,11 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description/>
-        <flow_priority/>
         <internal_name>leave_request_approval</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"8a7ec77b-3d31-4786-9ec4-1df8d7f3dda7":["record"],"2f0dafd4-6d68-4ebb-a0fb-f33d70e7a678":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.leave_type","label":"Trigger - Record Created or Updated➛Leave Request Record➛Leave Type","reference":"","reference_display":"Leave Type","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"leave_type","choices":[{"label":"Casual Leave","reference":false,"used":false,"image":"","rawLabel":"Casual Leave","selected":false,"missing":false,"value":"cl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Earned Leave","reference":false,"used":false,"image":"","rawLabel":"Earned Leave","selected":false,"missing":false,"value":"el","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"Sick Leave","reference":false,"used":false,"image":"","rawLabel":"Sick Leave","selected":false,"missing":false,"value":"sl","parameters":{"name":"x_1210077_employ_0_leave_request"}},{"label":"WFH","reference":false,"used":false,"image":"","rawLabel":"WFH","selected":false,"missing":false,"value":"wfh","parameters":{"name":"x_1210077_employ_0_leave_request"}}],"usedInstances":{"1d391453-33bf-4947-87aa-dce28c31b775":["leave_type"]}}]</label_cache>
         <master>true</master>
@@ -916,7 +908,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e661186cd9f13110cedf7dffddb48f71</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -1020,7 +1012,6 @@
         <comment/>
         <display_text/>
         <flow display_value="Leave Request approval">d38c2232832f86101036c065eeaad329</flow>
-        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>

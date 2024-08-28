@@ -41,7 +41,7 @@
         <update_guid_history>7b1154d2bcefc210921960ba68a2b972:1351423091</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Laptop.Employee Self Service">905414d683efc210b3cacb65eeaad356</sys_audit_delete>
+        <sys_audit_delete display_value="">905414d683efc210b3cacb65eeaad356</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 05:22:32</sys_created_on>

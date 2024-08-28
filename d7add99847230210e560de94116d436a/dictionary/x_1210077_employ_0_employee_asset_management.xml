@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5b1a03ed83a34210b3cacb65eeaad388" extends="x_1210077_employ_0_employee_details" max_length="40" name="x_1210077_employ_0_employee_asset_management" type="collection">
-        <element label="Serial Numer" max_length="40" name="serial_numer" type="string"/>
-        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Asset ID" max_length="40" name="asset_id" type="string"/>
         <element label="Assignment Date" max_length="40" name="assignmen_date" type="glide_date"/>
-        <element label="Last Name" max_length="40" name="last_name" type="string"/>
         <element choice="1" label="Category" max_length="40" name="category" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Mobile" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Access Card" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Laptop" sequence="0" value="1"/>
             </choice>
         </element>
-        <element label="Asset ID" max_length="40" name="asset_id" type="string"/>
         <element choice="1" label="Condition" max_length="40" name="condition" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="1"/>
@@ -19,5 +16,8 @@
                 <element inactive_on_update="false" label="Refurbished" sequence="2" value="3"/>
             </choice>
         </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Serial Numer" max_length="40" name="serial_numer" type="string"/>
     </element>
 </database>

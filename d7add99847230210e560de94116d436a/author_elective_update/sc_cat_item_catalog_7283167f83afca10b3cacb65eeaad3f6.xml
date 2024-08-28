@@ -41,7 +41,7 @@
         <update_guid_history>3283167f0bafca10030402fa4d0accf9:-1102462842,0ca363f755670e10f738b874bfaa5822:1030132090,3283167f0bafca10030402fa4d0accf9:-1102462842</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Laptop.Welcome Kit 2">de7450e48333ce10b3cacb65eeaad3e0</sys_audit_delete>
+        <sys_audit_delete display_value="">de7450e48333ce10b3cacb65eeaad3e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:09:33</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>9908c2bff86fca1007b73751bc7acbfb:905957026,25a327f7d7670e109a6d1f8c00c7bf6f:-1801123946,9908c2bff86fca1007b73751bc7acbfb:905957026</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Laptop.Mouse">23cf00208333ce10b3cacb65eeaad32d</sys_audit_delete>
+        <sys_audit_delete display_value="">23cf00208333ce10b3cacb65eeaad32d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:49:09</sys_created_on>

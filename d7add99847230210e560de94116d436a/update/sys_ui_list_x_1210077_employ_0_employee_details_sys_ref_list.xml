@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_id</element>
-            <list_id display_value="x_1210077_employ_0_employee_details" element="NULL" name="x_1210077_employ_0_employee_details" parent="NULL" relationship="NULL" sys_domain="global" view="632ca1528d30021087de63ac7f1f0028">b418f732838c5210b3cacb65eeaad33a</list_id>
+            <list_id display_value="x_1210077_employ_0_employee_details" element="NULL" name="x_1210077_employ_0_employee_details" parent="NULL" relationship="NULL" sys_domain="global" view="5b13b0603c31311068bcf327dfe37fad">b418f732838c5210b3cacb65eeaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-20 07:45:59</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">632ca1528d30021087de63ac7f1f0028</view>
+            <view display_value="Reference List" name="sys_ref_list">5b13b0603c31311068bcf327dfe37fad</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

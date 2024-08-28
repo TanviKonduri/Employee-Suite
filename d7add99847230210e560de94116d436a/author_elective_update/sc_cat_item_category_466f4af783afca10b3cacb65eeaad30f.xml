@@ -41,7 +41,7 @@
         <update_guid_history>c26f4af7fcafca1022fa8454b9cd0512:974031237,c5a3e3f726670e1003cccb66aa05f76a:621629706,c26f4af7fcafca1022fa8454b9cd0512:974031237</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Admin Welcome Kit.Welcome Kit">91425ce08333ce10b3cacb65eeaad3c5</sys_audit_delete>
+        <sys_audit_delete display_value="">91425ce08333ce10b3cacb65eeaad3c5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:59:56</sys_created_on>

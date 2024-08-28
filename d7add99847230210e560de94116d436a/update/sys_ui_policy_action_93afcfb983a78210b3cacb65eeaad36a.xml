@@ -3,8 +3,6 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>model</field>
-        <field_message/>
-        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,9 +18,6 @@
         <sys_updated_on>2024-07-23 05:44:56</sys_updated_on>
         <table>x_1210077_employ_0_employee_asset_management</table>
         <ui_policy display_value="test">bf3f87b983a78210b3cacb65eeaad347</ui_policy>
-        <value/>
-        <value_action>ignore</value_action>
         <visible>false</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=93afcfb983a78210b3cacb65eeaad36a"/>
 </record_update>

@@ -5,15 +5,11 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=331000,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
-        <display_name_after_preview/>
-        <flow_priority/>
-        <generation_source/>
         <internal_name>employee_leave</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"95343d20-434a-4d19-9ac9-021c0be6fdab":["balance"]}},{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"95343d20-434a-4d19-9ac9-021c0be6fdab":["taken"]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Leave Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"number","usedInstances":{"fafd2c15-20ed-47a0-bd84-f441e757e770":["condition"]}}]</label_cache>
         <master_snapshot>18cbc7b783630e101036c065eeaad3e1</master_snapshot>
@@ -28,7 +24,6 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
-        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 10:30:45</sys_created_on>
@@ -43,7 +38,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_c0da037783630e101036c065eeaad3cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-20 07:46:24</sys_updated_on>
+        <sys_updated_on>2024-08-28 06:09:58</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c0da037783630e101036c065eeaad3cd"/>
@@ -167,7 +162,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -439,7 +434,6 @@
         <comment/>
         <display_text/>
         <flow display_value="Employee leave">c0da037783630e101036c065eeaad3cd</flow>
-        <generation_source/>
         <order>2</order>
         <parent_ui_id>fafd2c15-20ed-47a0-bd84-f441e757e770</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -534,7 +528,6 @@
         <flow display_value="Employee leave">c0da037783630e101036c065eeaad3cd</flow>
         <flow_variable/>
         <flow_variables_assigned/>
-        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -651,13 +644,11 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description/>
-        <flow_priority/>
         <internal_name>employee_leave</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"95343d20-434a-4d19-9ac9-021c0be6fdab":["balance"]}},{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"95343d20-434a-4d19-9ac9-021c0be6fdab":["taken"]}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Leave Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"number","usedInstances":{"fafd2c15-20ed-47a0-bd84-f441e757e770":["condition"]}}]</label_cache>
         <master>true</master>
@@ -936,7 +927,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -1040,7 +1031,6 @@
         <comment/>
         <display_text/>
         <flow display_value="Employee leave">18cbc7b783630e101036c065eeaad3e1</flow>
-        <generation_source/>
         <order>2</order>
         <parent_ui_id>fafd2c15-20ed-47a0-bd84-f441e757e770</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1135,7 +1125,6 @@
         <flow display_value="Employee leave">18cbc7b783630e101036c065eeaad3e1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
-        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>

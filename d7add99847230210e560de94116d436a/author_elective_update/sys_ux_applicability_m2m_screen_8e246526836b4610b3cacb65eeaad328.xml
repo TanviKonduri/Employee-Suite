@@ -30,7 +30,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 05:49:50</sys_created_on>
         <sys_id>06246526836b4610b3cacb65eeaad32b</sys_id>

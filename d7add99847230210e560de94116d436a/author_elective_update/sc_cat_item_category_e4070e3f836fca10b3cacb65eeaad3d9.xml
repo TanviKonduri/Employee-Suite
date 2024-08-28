@@ -41,7 +41,7 @@
         <update_guid_history>20070e3f736fca10adb946b5f068c2dd:-1062349022</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Admin Welcome Kit.Water Bottle">df074e3f836fca10b3cacb65eeaad3c5</sys_audit_delete>
+        <sys_audit_delete display_value="">df074e3f836fca10b3cacb65eeaad3c5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 05:34:42</sys_created_on>

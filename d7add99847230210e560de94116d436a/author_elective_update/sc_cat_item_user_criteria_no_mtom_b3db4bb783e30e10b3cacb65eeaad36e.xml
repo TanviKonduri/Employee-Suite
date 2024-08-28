@@ -41,7 +41,7 @@
         <update_guid_history>fbdb4bb72fe30e101136cdeb81ed7570:-112523835</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apple MacBook Pro.user">38eb4bb783e30e10b3cacb65eeaad3bc</sys_audit_delete>
+        <sys_audit_delete display_value="">38eb4bb783e30e10b3cacb65eeaad3bc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 10:35:27</sys_created_on>

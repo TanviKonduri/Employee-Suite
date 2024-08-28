@@ -41,7 +41,7 @@
         <update_guid_history>5235e05ebd23061062ff1094fb226d8d:2122442781,abb30d1678e3061096050363f22f220f:-2130205039,5235e05ebd23061062ff1094fb226d8d:2122442781</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="MacBook.Mac Mini Desktop">08fbcbb783e30e10b3cacb65eeaad32e</sys_audit_delete>
+        <sys_audit_delete display_value="">08fbcbb783e30e10b3cacb65eeaad32e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 10:35:40</sys_created_on>

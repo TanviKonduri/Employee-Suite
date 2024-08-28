@@ -41,7 +41,7 @@
         <update_guid_history>e84bcb77d6e30e109b5bc28a5e8ed4b2:1999111026</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Apple Airpods Max.Users with 'itil' role">cc6b8f7783e30e10b3cacb65eeaad333</sys_audit_delete>
+        <sys_audit_delete display_value="">cc6b8f7783e30e10b3cacb65eeaad333</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 10:33:13</sys_created_on>

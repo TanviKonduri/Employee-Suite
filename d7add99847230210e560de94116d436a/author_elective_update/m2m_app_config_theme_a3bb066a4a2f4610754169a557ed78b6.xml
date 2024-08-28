@@ -33,7 +33,7 @@
         <reverted_from/>
         <source>5deac50193220210c5063a6efaba10fe</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by/>
         <sys_created_on>2024-05-31 19:05:47</sys_created_on>
         <sys_id>0c26fa6283238610b3cacb65eeaad308</sys_id>

@@ -16,7 +16,6 @@
         <logo>4cbd951047230210e560de94116d4333</logo>
         <menu/>
         <name>Employee Suite</name>
-        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -49,6 +48,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>Screenshot 2024-07-18 110415.png</file_name>
         <hash>c38f6e5b3518f90b80d88b71b30828886c8e960be70d0d8777d904c2fd83bab6</hash>
         <image_height>346</image_height>

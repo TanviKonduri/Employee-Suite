@@ -52,7 +52,7 @@
         <update_guid_history>a4a2653ca27b0250452da0f1e2fb948e:516904635</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Test - Container 1">62c2a530837b0250b3cacb65eeaad34f</sys_audit_delete>
+        <sys_audit_delete display_value="">62c2a530837b0250b3cacb65eeaad34f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-01 05:30:12</sys_created_on>

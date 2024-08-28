@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="eadcdd0d8348d210b3cacb65eeaad3a8" extends="x_1210077_employ_0_employee_details" label="Employee Documents" max_length="40" name="x_1210077_employ_0_employee_documents" type="collection">
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="12 Document" max_length="40" name="u_12_document" type="file_attachment"/>
-        <element attributes="edge_encryption_enabled=true" label="X Document" max_length="40" name="x_document" type="file_attachment"/>
-        <element attributes="edge_encryption_enabled=true" label="Provisional Certificate" max_length="40" name="provisional_certificate" type="file_attachment"/>
-        <element label="12 Board" max_length="40" name="u_12_board" type="string"/>
-        <element label="X Board" max_length="40" name="x_board" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Employee Details" max_length="32" name="employee_details" reference="x_1210077_employ_0_employee_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Provisional Certificate" max_length="40" name="provisional_certificate" type="file_attachment"/>
         <element label="UG University" max_length="40" name="ug_university" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="12 Board" max_length="40" name="u_12_board" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="12 Document" max_length="40" name="u_12_document" type="file_attachment"/>
+        <element label="X Board" max_length="40" name="x_board" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="X Document" max_length="40" name="x_document" type="file_attachment"/>
         <index name="index">
             <element name="employee_details"/>
         </index>

@@ -41,7 +41,7 @@
         <update_guid_history>0f76567349efca10d44a037a985fc0fe:-1399541166,4da3e3f718670e100dd0406b4dfdbe1f:-1650771002,0f76567349efca10d44a037a985fc0fe:-1399541166</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Developer Welcome Kit.Apple Mouse">ecc3dc648333ce10b3cacb65eeaad332</sys_audit_delete>
+        <sys_audit_delete display_value="">ecc3dc648333ce10b3cacb65eeaad332</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:06:25</sys_created_on>
