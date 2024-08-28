@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Settings Page">2e4e6d6dfe181210c8a20f562ce7fe25</macroponent>
+        <name>breadcrumbs_1_items</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Home",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Settings",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    return [{
+            "label": helpers.translateSync("Home"),
+            "icon": "home-outline",
+            "hideLabel": false
+        },
+        {
+            "label": helpers.translateSync("Settings")
+        }
+    ];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-28 10:47:18</sys_created_on>
+        <sys_id>664e6d6d921812100be149b1752fcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>breadcrumbs_1_items</sys_name>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_client_script_664e6d6d921812100be149b1752fcb14</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:47:18</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">224e6d6d93181210c481c818e0475513</dataset>
+        <order/>
+        <predicate_bundle display_value="My request - task bundle">624e6d6d34181210d84c2f0b61766f0f</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-08-28 10:47:20</sys_created_on>
+        <sys_id>a64e6d6d331812109b29504f1b046210</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_a64e6d6d331812109b29504f1b046210</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:47:20</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
