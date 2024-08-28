@@ -41,7 +41,7 @@
         <update_guid_history>492b0b77e8e30e1096c96e3154afebb3:-1396687075,2ca3a3f779670e10d417c48fb674651b:1867440529,492b0b77e8e30e1096c96e3154afebb3:-1396687075</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">320494a48333ce10b3cacb65eeaad3a4</sys_audit_delete>
+        <sys_audit_delete display_value="Developer Welcome Kit.Water Bottle 2">320494a48333ce10b3cacb65eeaad3a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:07:40</sys_created_on>

@@ -5,11 +5,15 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10337000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>final_referral_management</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>d626ed61c318121071d79242b401311a</master_snapshot>
@@ -24,13 +28,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 07:19:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>22be7061c314121071d79242b401316c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Final Referral Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -38,7 +43,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_22be7061c314121071d79242b401316c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 11:03:47</sys_updated_on>
+        <sys_updated_on>2024-08-28 11:36:53</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=22be7061c314121071d79242b401316c"/>
@@ -330,7 +335,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -434,6 +439,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Referral Management">22be7061c314121071d79242b401316c</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -535,6 +541,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Referral Management">22be7061c314121071d79242b401316c</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -624,6 +631,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Referral Management">22be7061c314121071d79242b401316c</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -734,11 +742,11 @@
         <sys_created_on>2024-08-28 09:22:08</sys_created_on>
         <sys_id>53ca11edc394121071d79242b4013132</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_22be7061c314121071d79242b401316c_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 09:22:08</sys_updated_on>
         <url/>
@@ -757,11 +765,11 @@
         <sys_created_on>2024-08-28 09:22:08</sys_created_on>
         <sys_id>d3ca11edc394121071d79242b401312b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_22be7061c314121071d79242b401316c_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 09:22:08</sys_updated_on>
         <url/>
@@ -780,11 +788,11 @@
         <sys_created_on>2024-08-28 09:22:08</sys_created_on>
         <sys_id>dfca11edc394121071d79242b401312e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_22be7061c314121071d79242b401316c_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 09:22:08</sys_updated_on>
         <url/>
@@ -799,11 +807,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>final_referral_management</internal_name>
         <label_cache>[{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
@@ -1163,6 +1173,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Referral Management">d626ed61c318121071d79242b401311a</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1252,6 +1263,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Final Referral Management">d626ed61c318121071d79242b401311a</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1362,11 +1374,11 @@
         <sys_created_on>2024-08-28 10:11:46</sys_created_on>
         <sys_id>6626ed61c318121071d79242b401313d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d626ed61c318121071d79242b401311a_table_name_en</sys_update_name>
         <sys_updated_by>abel.tuter</sys_updated_by>
         <sys_updated_on>2024-08-28 10:11:46</sys_updated_on>
         <url/>
@@ -1385,11 +1397,11 @@
         <sys_created_on>2024-08-28 10:11:46</sys_created_on>
         <sys_id>a626ed61c318121071d79242b401312d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d626ed61c318121071d79242b401311a_current_en</sys_update_name>
         <sys_updated_by>abel.tuter</sys_updated_by>
         <sys_updated_on>2024-08-28 10:11:46</sys_updated_on>
         <url/>
@@ -1408,11 +1420,11 @@
         <sys_created_on>2024-08-28 10:11:46</sys_created_on>
         <sys_id>e626ed61c318121071d79242b4013135</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d626ed61c318121071d79242b401311a_changed_fields_en</sys_update_name>
         <sys_updated_by>abel.tuter</sys_updated_by>
         <sys_updated_on>2024-08-28 10:11:46</sys_updated_on>
         <url/>

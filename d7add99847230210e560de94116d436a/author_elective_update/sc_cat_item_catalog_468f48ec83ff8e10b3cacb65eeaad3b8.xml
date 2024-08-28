@@ -41,7 +41,7 @@
         <update_guid_history>028f48ec53ff8e101626585d1ef185bb:-742287156</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">938f88ec83ff8e10b3cacb65eeaad3c2</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog.Dell Model 1">938f88ec83ff8e10b3cacb65eeaad3c2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:48:02</sys_created_on>

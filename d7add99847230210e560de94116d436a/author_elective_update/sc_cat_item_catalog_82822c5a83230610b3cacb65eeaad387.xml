@@ -41,7 +41,7 @@
         <update_guid_history>4e822c5a70230610a3725c96be0be089:182235627,3fb30d1608e306104a8d5d39679167a6:-1721544993,4e822c5a70230610a3725c96be0be089:182235627</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">722458a48333ce10b3cacb65eeaad390</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Apple MacBook Pro">722458a48333ce10b3cacb65eeaad390</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:08:13</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>c376567322efca10e1b35dbb7e7e57f0:1530879726,89a3e3f7b4670e105f014df5f703ca23:-390936094,c376567322efca10e1b35dbb7e7e57f0:1530879726</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">e7a35c648333ce10b3cacb65eeaad38f</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Apple Mouse">e7a35c648333ce10b3cacb65eeaad38f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:06:05</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>b2d05262656f46106a676101c4628f5c:-371310626</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">bed05262836f4610b3cacb65eeaad36d</sys_audit_delete>
+        <sys_audit_delete display_value="Mac Mini Desktop.Users with 'itil' role">bed05262836f4610b3cacb65eeaad36d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 09:05:08</sys_created_on>

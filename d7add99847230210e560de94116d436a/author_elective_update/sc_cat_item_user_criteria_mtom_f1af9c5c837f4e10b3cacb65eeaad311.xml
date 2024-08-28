@@ -41,7 +41,7 @@
         <update_guid_history>79af9c5c177f4e1049455868aa7f2f20:1390349181</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">b1af9c5c837f4e10b3cacb65eeaad334</sys_audit_delete>
+        <sys_audit_delete display_value="Dell Model 1.Users with 'Admin' Role">b1af9c5c837f4e10b3cacb65eeaad334</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 11:19:55</sys_created_on>

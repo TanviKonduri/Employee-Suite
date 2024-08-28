@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 06:25:26</sys_created_on>
         <sys_id>49e57a328327c610b3cacb65eeaad335</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>4de57a32b927c610fbc4ce4eb3e96934:-328923757</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">ddf676f28327c610b3cacb65eeaad392</sys_audit_delete>
+        <sys_audit_delete display_value="Dell Model 1.user">ddf676f28327c610b3cacb65eeaad392</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 06:30:05</sys_created_on>

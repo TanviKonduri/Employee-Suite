@@ -41,7 +41,7 @@
         <update_guid_history>1e44e014b8bf4e10b18d5b8506e58181:2090929931</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">9744e01483bf4e10b3cacb65eeaad3fe</sys_audit_delete>
+        <sys_audit_delete display_value="Water Bottle.Any User">9744e01483bf4e10b3cacb65eeaad3fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 11:40:13</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>73988cc24beb8210bc59376d79c3ce1e:80105913,0cc30d162ce3061002302b7091b21de4:-1305822547,73988cc24beb8210bc59376d79c3ce1e:80105913,f2c568c6c46f8210383182713e24c913:-1305822547,73988cc24beb8210bc59376d79c3ce1e:80105913</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">f55aa67283e3c610b3cacb65eeaad33d</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Employee Self Service">f55aa67283e3c610b3cacb65eeaad33d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 05:34:58</sys_created_on>

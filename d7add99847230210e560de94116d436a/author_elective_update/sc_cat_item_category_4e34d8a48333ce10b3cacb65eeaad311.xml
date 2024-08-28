@@ -41,7 +41,7 @@
         <update_guid_history>4634d8a4cc33ce10c26783df0ab82215:-531244426</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">77341ca48333ce10b3cacb65eeaad37f</sys_audit_delete>
+        <sys_audit_delete display_value="Can We Help You?.Apple MacBook Pro">77341ca48333ce10b3cacb65eeaad37f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:08:34</sys_created_on>

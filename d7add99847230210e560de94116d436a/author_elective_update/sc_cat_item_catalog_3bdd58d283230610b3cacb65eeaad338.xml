@@ -41,7 +41,7 @@
         <update_guid_history>f3dd58d2bf2306102693f7ca133b773b:-2016957510,c0c34d1619e30610d225f28d32babb16:-2046023250,f3dd58d2bf2306102693f7ca133b773b:-2016957510</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">355dce3783afca10b3cacb65eeaad3a3</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Dell Model 2">355dce3783afca10b3cacb65eeaad3a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 06:02:11</sys_created_on>

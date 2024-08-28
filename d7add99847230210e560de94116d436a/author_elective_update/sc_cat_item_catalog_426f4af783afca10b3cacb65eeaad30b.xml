@@ -41,7 +41,7 @@
         <update_guid_history>026f4af77aafca10fdc9e2b22662e00e:163017314,85a3e3f73c670e100ff5f3c66bf8876e:1069301799,026f4af77aafca10fdc9e2b22662e00e:163017314</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">dd4218e08333ce10b3cacb65eeaad3b8</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Welcome Kit">dd4218e08333ce10b3cacb65eeaad3b8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:59:56</sys_created_on>

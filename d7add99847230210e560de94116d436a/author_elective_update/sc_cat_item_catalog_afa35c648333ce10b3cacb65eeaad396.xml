@@ -41,7 +41,7 @@
         <update_guid_history>6ba35c643a33ce10d0a9a248d8703b99:1808528203</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">60c3dc648333ce10b3cacb65eeaad326</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog.Apple Mouse">60c3dc648333ce10b3cacb65eeaad326</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:06:25</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>4a8f48ec32ff8e10368b4c020ad63dc9:914735000</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">578f88ec83ff8e10b3cacb65eeaad3cf</sys_audit_delete>
+        <sys_audit_delete display_value="Can We Help You?.Dell Model 1">578f88ec83ff8e10b3cacb65eeaad3cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:48:02</sys_created_on>

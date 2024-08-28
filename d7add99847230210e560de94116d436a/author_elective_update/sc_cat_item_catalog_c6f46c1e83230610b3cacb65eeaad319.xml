@@ -41,7 +41,7 @@
         <update_guid_history>06f46c1ed1230610452dd8420ee09b1c:812199501</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">d8056c1e83230610b3cacb65eeaad3f1</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.Mac Mini Desktop">d8056c1e83230610b3cacb65eeaad3f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 06:35:26</sys_created_on>

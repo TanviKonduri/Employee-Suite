@@ -5,11 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2872163000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>referal_test</internal_name>
         <label_cache>[{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Confirmed","used":false,"image":"","rawLabel":"Confirmed","selected":false,"missing":false,"reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Cancel","used":false,"image":"","rawLabel":"Cancel","selected":false,"missing":false,"reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"On Hold","used":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Yes","used":false,"image":"","rawLabel":"Yes","selected":false,"missing":false,"reference":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"label":"No","used":false,"image":"","rawLabel":"No","selected":false,"missing":false,"reference":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"fc5b6a94-6c82-4053-a587-13ad9495f2dd.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"number"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"last_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"role"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>fd2ae166c3ef061071d79242b401314d</master_snapshot>
@@ -24,13 +28,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-25 06:07:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ca28a1a2c3ef061071d79242b401314b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Referal Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
@@ -38,7 +43,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_ca28a1a2c3ef061071d79242b401314b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 11:01:20</sys_updated_on>
+        <sys_updated_on>2024-08-28 11:37:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ca28a1a2c3ef061071d79242b401314b"/>
@@ -330,7 +335,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -434,6 +439,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -535,6 +541,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -673,6 +680,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -736,6 +744,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -872,6 +881,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -961,6 +971,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1050,6 +1061,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1139,6 +1151,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1297,6 +1310,7 @@
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1344,6 +1358,7 @@
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1391,6 +1406,7 @@
         <flow display_value="Referal Management">ca28a1a2c3ef061071d79242b401314b</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1680,11 +1696,11 @@
         <sys_created_on>2024-07-25 06:15:55</sys_created_on>
         <sys_id>402a6166c3ef061071d79242b4013167</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ca28a1a2c3ef061071d79242b401314b_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:15:55</sys_updated_on>
         <url/>
@@ -1703,11 +1719,11 @@
         <sys_created_on>2024-07-25 06:15:55</sys_created_on>
         <sys_id>882a6166c3ef061071d79242b4013163</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ca28a1a2c3ef061071d79242b401314b_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:15:55</sys_updated_on>
         <url/>
@@ -1726,11 +1742,11 @@
         <sys_created_on>2024-07-25 06:15:55</sys_created_on>
         <sys_id>c02a6166c3ef061071d79242b401316a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ca28a1a2c3ef061071d79242b401314b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:15:55</sys_updated_on>
         <url/>
@@ -1745,11 +1761,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>referal_test</internal_name>
         <label_cache>[{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"role"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"number"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"fc5b6a94-6c82-4053-a587-13ad9495f2dd.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Confirmed","used":false,"reference":false,"rawLabel":"Confirmed","selected":false,"missing":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"Cancel","used":false,"reference":false,"rawLabel":"Cancel","selected":false,"missing":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"On Hold","used":false,"reference":false,"rawLabel":"On Hold","selected":false,"missing":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"Yes","used":false,"reference":false,"rawLabel":"Yes","selected":false,"missing":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"image":"","label":"No","used":false,"reference":false,"rawLabel":"No","selected":false,"missing":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]}]</label_cache>
         <master>true</master>
@@ -2028,7 +2046,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -2132,6 +2150,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2221,6 +2240,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2357,6 +2377,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2420,6 +2441,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2509,6 +2531,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2610,6 +2633,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2763,6 +2787,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2901,6 +2926,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2995,6 +3021,7 @@
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3042,6 +3069,7 @@
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3089,6 +3117,7 @@
         <flow display_value="Referal Management">fd2ae166c3ef061071d79242b401314d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3382,7 +3411,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fd2ae166c3ef061071d79242b401314d_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:16:03</sys_updated_on>
         <url/>
@@ -3405,7 +3434,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fd2ae166c3ef061071d79242b401314d_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:16:03</sys_updated_on>
         <url/>
@@ -3428,7 +3457,7 @@
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fd2ae166c3ef061071d79242b401314d_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-25 06:16:03</sys_updated_on>
         <url/>

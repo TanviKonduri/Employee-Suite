@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>total_leaves</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2024-07-26 06:22:37</sys_updated_on>
         <table>x_1210077_employ_0_leave_request</table>
         <ui_policy display_value="If leave type is not empty">07b4327e832f86101036c065eeaad30d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=2505b67e832f86101036c065eeaad3df"/>
 </record_update>

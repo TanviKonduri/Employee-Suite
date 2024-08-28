@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="User Registration" name="x_1210077_employ_0_user_registration">2b2a12eac3e3461071d79242b4013106</super_class>
+        <super_class display_value="User Registration" name="x_1210077_employ_0_user_registration">e71c219c47630210e560de94116d4319</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 07:28:27</sys_created_on>
@@ -31,7 +31,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 07:28:27</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_1210077_employ_0.HR Access" name="x_1210077_employ_0.HR Access">9cf7772cc34c521071d79242b401316a</user_role>
+        <user_role display_value="">9cf7772cc34c521071d79242b401316a</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

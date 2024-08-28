@@ -5,11 +5,15 @@
         <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2975000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
         <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>test</internal_name>
         <label_cache>[{"name":"Created_1.current.user_name","label":"Trigger - Record Created➛User Registration Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"},{"name":"30c99033-9557-4ece-860d-d8663d3f0699.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.fa82abf03710200044e0bfc8bcbe5d16}}","label":"Randal Gansen","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>1b58e81ec367c21071d79242b4013158</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-24 06:00:31</sys_created_on>
@@ -38,7 +43,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_e80ddc5ac327c21071d79242b401319d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 06:10:06</sys_updated_on>
+        <sys_updated_on>2024-08-28 11:37:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e80ddc5ac327c21071d79242b401319d"/>
@@ -326,6 +331,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">e80ddc5ac327c21071d79242b401319d</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>97b67131-3d76-4ff0-aada-58dd60ad9ab4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -415,6 +421,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">e80ddc5ac327c21071d79242b401319d</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -516,6 +523,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">e80ddc5ac327c21071d79242b401319d</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -605,6 +613,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">e80ddc5ac327c21071d79242b401319d</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -673,6 +682,7 @@
         <flow display_value="Test">e80ddc5ac327c21071d79242b401319d</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -766,11 +776,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>test</internal_name>
         <label_cache>[{"name":"Created_1.current.user_name","label":"Trigger - Record Created➛User Registration Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration","column_name":"user_name"},{"name":"30c99033-9557-4ece-860d-d8663d3f0699.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛User Registration Record","reference":"x_1210077_employ_0_user_registration","reference_display":"User Registration","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.fa82abf03710200044e0bfc8bcbe5d16}}","label":"Randal Gansen","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
@@ -1045,6 +1057,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">1b58e81ec367c21071d79242b4013158</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id>97b67131-3d76-4ff0-aada-58dd60ad9ab4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1134,6 +1147,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">1b58e81ec367c21071d79242b4013158</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1197,6 +1211,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">1b58e81ec367c21071d79242b4013158</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1298,6 +1313,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Test">1b58e81ec367c21071d79242b4013158</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1392,6 +1408,7 @@
         <flow display_value="Test">1b58e81ec367c21071d79242b4013158</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>

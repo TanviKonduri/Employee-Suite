@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>fad3633b83670e10b3cacb65eeaad372</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 12:20:15</sys_created_on>
         <sys_id>37d3273b83670e10b3cacb65eeaad3c4</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>6a460efb2f6fca10b73fe2f717f83686:-2016275045,1ca363f793670e1084556164b2c1d8ec:784080911,6a460efb2f6fca10b73fe2f717f83686:-2016275045</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">de30d8208333ce10b3cacb65eeaad36d</sys_audit_delete>
+        <sys_audit_delete display_value="Admin Welcome Kit.HeadPhones">de30d8208333ce10b3cacb65eeaad36d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:50:59</sys_created_on>

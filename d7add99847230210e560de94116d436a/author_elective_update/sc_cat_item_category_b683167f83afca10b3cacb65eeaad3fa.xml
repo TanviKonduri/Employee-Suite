@@ -41,7 +41,7 @@
         <update_guid_history>3683167fe3afca10d849274a4534c7fd:237411764,4ca363f7bb670e10035303a08ef0671e:-1658630872,3683167fe3afca10d849274a4534c7fd:237411764</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">de7450e48333ce10b3cacb65eeaad3e7</sys_audit_delete>
+        <sys_audit_delete display_value="Developer Welcome Kit.Welcome Kit 2">de7450e48333ce10b3cacb65eeaad3e7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:09:33</sys_created_on>

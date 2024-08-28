@@ -41,7 +41,7 @@
         <update_guid_history>93855233d7efca1014d34f6c1b69b903:1185287053,bf9323f754670e10945c129083b265a4:277219073,93855233d7efca1014d34f6c1b69b903:1185287053</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">5b8398648333ce10b3cacb65eeaad34a</sys_audit_delete>
+        <sys_audit_delete display_value="Developer Welcome Kit.Apple Airpods Max">5b8398648333ce10b3cacb65eeaad34a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 05:05:31</sys_created_on>

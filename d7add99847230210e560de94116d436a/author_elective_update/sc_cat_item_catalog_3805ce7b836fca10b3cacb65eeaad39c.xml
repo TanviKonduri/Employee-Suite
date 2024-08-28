@@ -41,7 +41,7 @@
         <update_guid_history>f805ce7b3b6fca10b72842f4e8e8f19f:-356422710,78a3a3f760670e1062907d8cacd9ce95:-264567874,f805ce7b3b6fca10b72842f4e8e8f19f:-356422710</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">4b2058208333ce10b3cacb65eeaad3fe</sys_audit_delete>
+        <sys_audit_delete display_value="Laptop.HeadPhones">4b2058208333ce10b3cacb65eeaad3fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:50:46</sys_created_on>

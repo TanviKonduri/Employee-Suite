@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-16 06:38:37</sys_created_on>
         <sys_id>4342c72583889610b3cacb65eeaad30a</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>4342c72534889610d809cedd4fb15c09:-773163703</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">87624b2583889610b3cacb65eeaad3d6</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog. Upload Documents">87624b2583889610b3cacb65eeaad3d6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-16 06:39:10</sys_created_on>

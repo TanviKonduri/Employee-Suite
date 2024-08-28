@@ -129,7 +129,7 @@
         <update_guid_history>f7988cc293eb8210e5f9ec75a949da0b:1721851056,4cc34d1652e306107547797d71cb5302:-135682562,f7988cc293eb8210e5f9ec75a949da0b:1721851056,b6c568c62c6f821039e62490518f993c:-135682562,f7988cc293eb8210e5f9ec75a949da0b:1721851056,e1f700c28aeb82102f8423499f6a90fa:2051201584,06fcf735bbab8210c706f71b84c68828:487853808,4efcf735b6ab8210230c9b4ce995351c:-531572690</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">0e5a2e7283e3c610b3cacb65eeaad398</sys_audit_delete>
+        <sys_audit_delete display_value="Employee Self Service">0e5a2e7283e3c610b3cacb65eeaad398</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-26 05:34:59</sys_created_on>

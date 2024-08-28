@@ -3,7 +3,7 @@
         <macroponent_config>{
     "029f04e053610110ac9bddeeff7b1294": {}
 }</macroponent_config>
-        <screen display_value="Landing Page Default">142cd81bdac01610cf41a2e244498b6a</screen>
+        <screen display_value="">142cd81bdac01610cf41a2e244498b6a</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 09:51:53</sys_created_on>

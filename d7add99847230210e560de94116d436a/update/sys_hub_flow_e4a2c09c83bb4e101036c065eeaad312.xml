@@ -5,11 +5,15 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1630000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>leave_details</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["employee_name"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["requested_by"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["balance"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["balance"]}},{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["taken"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["taken"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"c4709d3b-095f-4b8e-978b-ae0d679a7d88":["record"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>eed8489483fb4e101036c065eeaad32c</master_snapshot>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 09:13:07</sys_created_on>
@@ -38,7 +43,7 @@
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_e4a2c09c83bb4e101036c065eeaad312</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 06:10:04</sys_updated_on>
+        <sys_updated_on>2024-08-28 11:37:04</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e4a2c09c83bb4e101036c065eeaad312"/>
@@ -344,7 +349,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e0523d5e8df0021087de63ac7f1f008c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -448,6 +453,7 @@
         <comment/>
         <display_text/>
         <flow display_value="leave details">e4a2c09c83bb4e101036c065eeaad312</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -597,11 +603,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>leave_details</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Leave Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"number","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["employee_id"]}},{"name":"Created or Updated_1.current.requested_by","label":"Trigger - Record Created or Updated➛Leave Request Record➛Requested by","reference":"x_1210077_employ_0_employee_details","reference_display":"x_1210077_employ_0_employee_details","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"requested_by","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["employee_name"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["requested_by"]}},{"name":"Created or Updated_1.current.balance","label":"Trigger - Record Created or Updated➛Leave Request Record➛Balance","reference":"","reference_display":"Balance","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"balance","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["balance"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["balance"]}},{"name":"Created or Updated_1.current.taken","label":"Trigger - Record Created or Updated➛Leave Request Record➛Taken","reference":"","reference_display":"Taken","type":"float","base_type":"float","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"taken","usedInstances":{"483a813f-5953-4af1-8951-92aa5c213ae7":["taken"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["taken"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Leave Request Record","reference":"x_1210077_employ_0_leave_request","reference_display":"Leave Request","type":"reference","base_type":"reference","usedInstances":{"c4709d3b-095f-4b8e-978b-ae0d679a7d88":["record"],"25917f42-09a3-4b22-8fa7-b3e7370a1235":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.sys_created_on","label":"Trigger - Record Created or Updated➛Leave Request Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1210077_employ_0_leave_request","column_name":"sys_created_on","usedInstances":{}}]</label_cache>
         <master>true</master>
@@ -975,6 +983,7 @@
         <comment/>
         <display_text/>
         <flow display_value="leave details">eed8489483fb4e101036c065eeaad32c</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>

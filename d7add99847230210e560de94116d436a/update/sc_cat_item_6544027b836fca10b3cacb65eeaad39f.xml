@@ -38,6 +38,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -107,7 +108,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>610NdWdTLiL._SY450_.jpg</file_name>
         <hash>bfde68e9b1c8ee86cedf291c331d6e4a3268e65ce009c9445aaed36a91c42efc</hash>
         <image_height>450</image_height>

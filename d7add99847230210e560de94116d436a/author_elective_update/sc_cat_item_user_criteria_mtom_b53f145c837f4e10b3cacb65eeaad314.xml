@@ -41,7 +41,7 @@
         <update_guid_history>753f145c2c7f4e103433fc3441336717:996895680,9fdfd09caf7f4e10cc843754336c443a:-1879718604,753f145c2c7f4e103433fc3441336717:996895680</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">ee65a09483bf4e10b3cacb65eeaad33b</sys_audit_delete>
+        <sys_audit_delete display_value="Mouse.Users with 'Admin' Role">ee65a09483bf4e10b3cacb65eeaad33b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-30 11:45:05</sys_created_on>

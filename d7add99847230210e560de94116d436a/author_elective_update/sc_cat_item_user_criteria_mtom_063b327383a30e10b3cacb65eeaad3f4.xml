@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 09:22:38</sys_created_on>
         <sys_id>c23b327383a30e10b3cacb65eeaad3f8</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>c23b3273cba30e10dff54e377b6a7cf7:446728276</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">e44b727383a30e10b3cacb65eeaad3cc</sys_audit_delete>
+        <sys_audit_delete display_value="HeadPhones.user">e44b727383a30e10b3cacb65eeaad3cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-29 09:22:48</sys_created_on>

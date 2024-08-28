@@ -38,6 +38,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -107,7 +108,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>355ffc0c-3865-42c7-a1a3-fc90989ab40f_416x416.jpg</file_name>
         <hash>0e3b32c9d6d0c6137c0daebd8d44c8f81fef4e626a178ecd23bd4c7e326ba934</hash>
         <image_height>416</image_height>

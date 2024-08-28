@@ -28,7 +28,7 @@
         <reverted_from/>
         <source>ecd9a1d493630210c5063a6efaba1041</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:49:37</sys_created_on>
         <sys_id>62efc0208333ce10b3cacb65eeaad3d4</sys_id>
@@ -41,7 +41,7 @@
         <update_guid_history>62efc0203933ce10228173941abb9fd3:-450944024</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">8aff44208333ce10b3cacb65eeaad30a</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog.Water Bottle">8aff44208333ce10b3cacb65eeaad30a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 04:49:52</sys_created_on>
