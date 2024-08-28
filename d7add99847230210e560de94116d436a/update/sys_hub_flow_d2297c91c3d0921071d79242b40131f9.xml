@@ -2,16 +2,16 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1015000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=78861000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>ca28a1a2c3ef061071d79242b401314b</copied_from>
         <copied_from_name>Referal Management</copied_from_name>
         <description/>
         <internal_name>referal_management_data</internal_name>
-        <label_cache>[{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Confirmed","used":false,"image":"","rawLabel":"Confirmed","selected":false,"missing":false,"reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Cancel","used":false,"image":"","rawLabel":"Cancel","selected":false,"missing":false,"reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"On Hold","used":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Yes","used":false,"image":"","rawLabel":"Yes","selected":false,"missing":false,"reference":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"label":"No","used":false,"image":"","rawLabel":"No","selected":false,"missing":false,"reference":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"number"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"user_name"},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"last_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"role"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9529c571-ffa7-44e8-87a3-a8df0b9f83fe.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"9529c571-ffa7-44e8-87a3-a8df0b9f83fe.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"role"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"user_name"},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"number"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Confirmed","used":false,"image":"","rawLabel":"Confirmed","selected":false,"missing":false,"reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Cancel","used":false,"image":"","rawLabel":"Cancel","selected":false,"missing":false,"reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"On Hold","used":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Yes","used":false,"image":"","rawLabel":"Yes","selected":false,"missing":false,"reference":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"label":"No","used":false,"image":"","rawLabel":"No","selected":false,"missing":false,"reference":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]}]</label_cache>
         <master_snapshot>fe0d7019c3d0921071d79242b40131b7</master_snapshot>
         <name> Referal Management Data</name>
         <natlang/>
@@ -23,22 +23,22 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2297c91c3d0921071d79242b40131f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name> Referal Management Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name>sys_hub_flow_d2297c91c3d0921071d79242b40131f9</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 06:25:07</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d2297c91c3d0921071d79242b40131f9"/>
@@ -74,15 +74,15 @@
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>d2297c91c3d0921071d79242b40131f9</identifier>
         <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:41</sys_created_on>
-        <sys_id>e30df019c3d0921071d79242b401311e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:41</sys_updated_on>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:09</sys_created_on>
+        <sys_id>55066961c318121071d79242b40131d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <trigger display_value="">e70df019c3d0921071d79242b401311d</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d2297c91c3d0921071d79242b40131f9^sys_idNOT INe30df019c3d0921071d79242b401311e"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d2297c91c3d0921071d79242b40131f9^sys_idNOT IN55066961c318121071d79242b40131d4"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=d2297c91c3d0921071d79242b40131f9^sys_idNOT IN7a29bc91c3d0921071d79242b4013194"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:43</sys_created_on>
         <sys_id>7a29bc91c3d0921071d79242b4013194</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -151,7 +151,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -210,14 +210,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:41</sys_created_on>
         <sys_id>5a29bc91c3d0921071d79242b4013101</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -235,7 +235,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -294,14 +294,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>6e29bc91c3d0921071d79242b4013105</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -440,10 +440,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:34</sys_created_on>
         <sys_id>35c8a465c350121071d79242b4013149</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>9529c571-ffa7-44e8-87a3-a8df0b9f83fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35c8a465c350121071d79242b4013149"/>
@@ -541,10 +541,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>6229bc91c3d0921071d79242b401316b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6229bc91c3d0921071d79242b401316b"/>
@@ -630,10 +630,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>6a29bc91c3d0921071d79242b401315b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>89d291cd-d22b-428b-89ab-6db55e2ab7cd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6a29bc91c3d0921071d79242b401315b"/>
@@ -719,10 +719,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:35</sys_created_on>
         <sys_id>7dc8a465c350121071d79242b4013153</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:35</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>1f427722-2aa4-4703-8a3b-924ddbdbea8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7dc8a465c350121071d79242b4013153"/>
@@ -808,10 +808,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>a229bc91c3d0921071d79242b4013164</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>c0f5a6b5-9007-4b2d-9e97-b557695a0725</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a229bc91c3d0921071d79242b4013164"/>
@@ -909,10 +909,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:35</sys_created_on>
         <sys_id>b1c8a465c350121071d79242b401315d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:35</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:10</sys_updated_on>
         <ui_id>22231fd5-7f4c-43db-bf60-3bb56b379b4a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1c8a465c350121071d79242b401315d"/>
@@ -998,10 +998,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:34</sys_created_on>
         <sys_id>f9c8a465c350121071d79242b401313f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f9c8a465c350121071d79242b401313f"/>
@@ -1146,10 +1146,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>2629bc91c3d0921071d79242b401310f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>106959df-7def-4373-8bb7-43805670247c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1193,10 +1193,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:35</sys_created_on>
         <sys_id>b9c8a465c350121071d79242b4013156</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:35</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:10</sys_updated_on>
         <ui_id>61e86fc7-e5d5-417e-9275-f26aca285e31</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1240,10 +1240,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 05:43:34</sys_created_on>
         <sys_id>fdc8a465c350121071d79242b401314c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 05:43:34</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <ui_id>7769333f-7299-4065-a64a-ae1478469ac4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1654,7 +1654,7 @@
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>6629bc91c3d0921071d79242b401310b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1677,7 +1677,7 @@
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>ae29bc91c3d0921071d79242b4013104</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1700,7 +1700,7 @@
         <sys_created_on>2024-08-27 12:16:42</sys_created_on>
         <sys_id>ae29bc91c3d0921071d79242b4013107</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -1725,7 +1725,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>referal_management_data</internal_name>
-        <label_cache>[{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"role"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"user_name"},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"number"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"fc5b6a94-6c82-4053-a587-13ad9495f2dd.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"Confirmed","used":false,"reference":false,"rawLabel":"Confirmed","selected":false,"missing":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"Cancel","used":false,"reference":false,"rawLabel":"Cancel","selected":false,"missing":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"On Hold","used":false,"reference":false,"rawLabel":"On Hold","selected":false,"missing":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"image":"","label":"Yes","used":false,"reference":false,"rawLabel":"Yes","selected":false,"missing":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"image":"","label":"No","used":false,"reference":false,"rawLabel":"No","selected":false,"missing":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]}]</label_cache>
+        <label_cache>[{"name":"9529c571-ffa7-44e8-87a3-a8df0b9f83fe.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4.email","label":"5 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.46d44a23a9fe19810012d100cca80666}}","label":"Beth Anglin","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.f298d2d2c611227b0106c6be7f154bc8}}","label":"Bow Ruggeri","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.calendly_link","label":"5 - Create Record➛Interview Scheduling Record➛Calendly Link","reference":"","reference_display":"Calendly Link","type":"url","base_type":"url","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"calendly_link"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.email","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.email_id","label":"5 - Create Record➛Interview Scheduling Record➛Email ID","reference":"","reference_display":"Email ID","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"email_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.employee_id","label":"5 - Create Record➛Interview Scheduling Record➛User ID of the Candidate","reference":"","reference_display":"User ID of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"employee_id"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.name_of_the_candidate","label":"5 - Create Record➛Interview Scheduling Record➛Name of the Candidate","reference":"","reference_display":"Name of the Candidate","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"name_of_the_candidate"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.last_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to.first_name","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.role","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Role","reference":"","reference_display":"Role","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"role"},{"name":"Created or Updated_1.current.last_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"last_name"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.short_description","label":"5 - Create Record➛Interview Scheduling Record➛Description (short_description)","reference":"","reference_display":"Description (short_description)","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"short_description"},{"name":"Created or Updated_1.current.email","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"email"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record","label":"5 - Create Record➛Interview Scheduling Record","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"74546af5-cc6b-402d-89db-260bd274b572.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record","label":"3 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛User Registration Data Record➛First Name ","reference":"","reference_display":"First Name ","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"user_name"},{"name":"89d291cd-d22b-428b-89ab-6db55e2ab7cd.record","label":"1 - Update Record➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c0f5a6b5-9007-4b2d-9e97-b557695a0725.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛User Registration Data Record","reference":"x_1210077_employ_0_user_registration_data","reference_display":"User Registration Data","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛User Registration Data Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1210077_employ_0_user_registration_data","column_name":"number"},{"name":"{{static.8a79840ec3af421071d79242b4013194}}","label":"ServiceNow Interview Panel","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.assigned_to","label":"5 - Create Record➛Interview Scheduling Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"assigned_to"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.table_name","label":"5 - Create Record➛Interview Scheduling Table","reference":"x_1210077_employ_0_interview_scheduling","reference_display":"Interview Scheduling","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.__action_status__.message","label":"5 - Create Record➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"{{static.55b7332cc34c521071d79242b4013119}}","label":"HR Kreeyaa","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"975e6ead-c5ab-410d-8b4e-45c987e0f353.record.u_choice_1","label":"5 - Create Record➛Interview Scheduling Record➛HR Result","reference":"","reference_display":"HR Result","type":"choice","base_type":"choice","parent_table_name":"x_1210077_employ_0_interview_scheduling","column_name":"u_choice_1","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Confirmed","used":false,"image":"","rawLabel":"Confirmed","selected":false,"missing":false,"reference":false,"value":"confirmed","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Cancel","used":false,"image":"","rawLabel":"Cancel","selected":false,"missing":false,"reference":false,"value":"cancel","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"On Hold","used":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"reference":false,"value":"on hold","parameters":{"name":"x_1210077_employ_0_interviews"}},{"label":"Yes","used":false,"image":"","rawLabel":"Yes","selected":false,"missing":false,"reference":false,"value":"yes","parameters":{"name":"x_1210077_employ_0_referrers_info"}},{"label":"No","used":false,"image":"","rawLabel":"No","selected":false,"missing":false,"reference":false,"value":"no","parameters":{"name":"x_1210077_employ_0_referrers_info"}}]}]</label_cache>
         <master>true</master>
         <name> Referal Management Data</name>
         <natlang/>
@@ -1742,15 +1742,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe0d7019c3d0921071d79242b40131b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:38</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=fe0d7019c3d0921071d79242b40131b7"/>
@@ -1765,10 +1765,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:40</sys_created_on>
         <sys_id>030db019c3d0921071d79242b40131ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:41</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1819,11 +1819,34 @@
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=320d7019c3d0921071d79242b40131b9"/>
     <sys_hub_flow_input action="delete_multiple" query="model=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN3a0d7019c3d0921071d79242b40131f3,f20d7019c3d0921071d79242b40131ba,f60db019c3d0921071d79242b401313a"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ffe9f8683cf1311068bcf327dfe37fdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1882,14 +1905,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>3a0d7019c3d0921071d79242b40131f3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1907,7 +1930,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1966,14 +1989,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:38</sys_created_on>
         <sys_id>f20d7019c3d0921071d79242b40131ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:38</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1991,7 +2014,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2050,14 +2073,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>f60db019c3d0921071d79242b401313a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2073,160 +2096,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f60db019c3d0921071d79242b401313a"/>
     <sys_hub_flow_output action="delete_multiple" query="model=fe0d7019c3d0921071d79242b40131b7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe0d7019c3d0921071d79242b40131b7"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN430db019c3d0921071d79242b401318e,4b0db019c3d0921071d79242b40131a1,4f0db019c3d0921071d79242b40131a9,870db019c3d0921071d79242b401316c,870db019c3d0921071d79242b401319a,8b0db019c3d0921071d79242b4013162,cf0db019c3d0921071d79242b4013172,cf0db019c3d0921071d79242b401317a"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
-        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <order>7</order>
-        <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>430db019c3d0921071d79242b401318e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <ui_id>fc5b6a94-6c82-4053-a587-13ad9495f2dd</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=430db019c3d0921071d79242b401318e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>430db019c3d0921071d79242b401318e</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>0f0db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>430db019c3d0921071d79242b401318e</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4b0db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>430db019c3d0921071d79242b401318e</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>830db019c3d0921071d79242b4013191</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>x_1210077_employ_0_interview_scheduling</value>
-        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>430db019c3d0921071d79242b401318e</document_key>
-        <order>5</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>cf0db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value/>
-        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=430db019c3d0921071d79242b401318e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_conditions</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>070db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyU[{{static.f298d2d2c611227b0106c6be7f154bc8}},{{static.46d44a23a9fe19810012d100cca80666}}]</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_field</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>0b0db019c3d0921071d79242b401318f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>due_date</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>430db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>journal_field</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>cb0db019c3d0921071d79242b401318f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>8f0db019c3d0921071d79242b401318f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{{19966916-bcf2-451c-9b58-f7450d7e6970.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>430db019c3d0921071d79242b401318e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>c70db019c3d0921071d79242b4013190</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=430db019c3d0921071d79242b401318e"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=430db019c3d0921071d79242b401318e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN38062961c318121071d79242b40131b2,870db019c3d0921071d79242b401316c,8b0db019c3d0921071d79242b4013162,b0062961c318121071d79242b40131b9,b4062961c318121071d79242b4013192,cf0db019c3d0921071d79242b4013172,fc062961c318121071d79242b40131a9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2236,224 +2106,86 @@
         <comment/>
         <display_text/>
         <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <order>10</order>
-        <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
+        <order>8</order>
+        <parent_ui_id>7769333f-7299-4065-a64a-ae1478469ac4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4b0db019c3d0921071d79242b40131a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>38062961c318121071d79242b40131b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <ui_id>95b08438-626f-4862-8f71-513c6ba3402d</ui_id>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>1f427722-2aa4-4703-8a3b-924ddbdbea8e</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4b0db019c3d0921071d79242b40131a1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38062961c318121071d79242b40131b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>4b0db019c3d0921071d79242b40131a1</document_key>
+        <document_key>38062961c318121071d79242b40131b2</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>470db019c3d0921071d79242b40131a3</sys_id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>38062961c318121071d79242b40131b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
         <value>x_1210077_employ_0_user_registration_data</value>
         <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>4b0db019c3d0921071d79242b40131a1</document_key>
+        <document_key>38062961c318121071d79242b40131b2</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>830db019c3d0921071d79242b40131a3</sys_id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>74062961c318121071d79242b40131b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
         <value>u_choice_1=confirmed</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4b0db019c3d0921071d79242b40131a1"/>
+    <sys_element_mapping action="delete_multiple" query="id=38062961c318121071d79242b40131b2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
-        <id>4b0db019c3d0921071d79242b40131a1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>030db019c3d0921071d79242b40131a3</sys_id>
+        <id>38062961c318121071d79242b40131b2</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f0062961c318121071d79242b40131b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>4b0db019c3d0921071d79242b40131a1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>8b0db019c3d0921071d79242b40131a2</sys_id>
+        <id>38062961c318121071d79242b40131b2</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>7c062961c318121071d79242b40131b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>4b0db019c3d0921071d79242b40131a1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4f0db019c3d0921071d79242b40131a2</sys_id>
+        <id>38062961c318121071d79242b40131b2</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>30062961c318121071d79242b40131b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=4b0db019c3d0921071d79242b40131a1"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b0db019c3d0921071d79242b40131a1"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <order>11</order>
-        <parent_ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4f0db019c3d0921071d79242b40131a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <ui_id>b19c47ca-6eaf-4e53-b141-067be051f9a3</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4f0db019c3d0921071d79242b40131a9"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>4f0db019c3d0921071d79242b40131a9</document_key>
-        <order>6</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>0f0db019c3d0921071d79242b40131ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>Interview Scheduled and Verification Process Completed</value>
-        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>4f0db019c3d0921071d79242b40131a9</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4b0db019c3d0921071d79242b40131ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>x_1210077_employ_0_user_registration_data</value>
-        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>4f0db019c3d0921071d79242b40131a9</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>870db019c3d0921071d79242b40131ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4f0db019c3d0921071d79242b40131a9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>4f0db019c3d0921071d79242b40131a9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>cb0db019c3d0921071d79242b40131ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Dear,&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;I hope this email finds you well.&lt;/p&gt;
-&lt;p&gt;We are pleased to inform you that your interview for the&amp;nbsp; &amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:88c33411-099b-4f5d-b04b-6f2c384812e1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:88c33411-099b-4f5d-b04b-6f2c384812e1}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; Role"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Role&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_88c33411-099b-4f5d-b04b-6f2c384812e1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; position at KREEYA TECHNOLOGIES has been scheduled.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Below are the details:&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;Please check the availability of your interviewer&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5ce4bee4-ad8b-4e04-84ff-32a93bcf7772}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:5ce4bee4-ad8b-4e04-84ff-32a93bcf7772}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 - Create Record &amp;gt; Interview Scheduling Record &amp;gt; Calendly Link"&gt;&lt;span class="pill-start"&gt;5 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Calendly Link&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5ce4bee4-ad8b-4e04-84ff-32a93bcf7772" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Additionally, we have successfully completed your verification process.&lt;/p&gt;
-&lt;p&gt;Please make sure to review the interview details and prepare accordingly. If you have any questions or need further assistance, feel free to reach out.&lt;/p&gt;
-&lt;p&gt;We look forward to meeting you!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Good Luck For your Interview&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Best Regards,&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;HR KREEYA.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>4f0db019c3d0921071d79242b40131a9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>070db019c3d0921071d79242b40131ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>4f0db019c3d0921071d79242b40131a9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>0b0db019c3d0921071d79242b40131ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value> {{Created or Updated_1.current.email}} </value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>4f0db019c3d0921071d79242b40131a9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>8f0db019c3d0921071d79242b40131ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Created or Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>4f0db019c3d0921071d79242b40131a9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>430db019c3d0921071d79242b40131ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=4f0db019c3d0921071d79242b40131a9"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4f0db019c3d0921071d79242b40131a9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38062961c318121071d79242b40131b2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38062961c318121071d79242b40131b2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2469,10 +2201,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>870db019c3d0921071d79242b401316c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <ui_id>c0f5a6b5-9007-4b2d-9e97-b557695a0725</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=870db019c3d0921071d79242b401316c"/>
@@ -2558,142 +2290,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <order>8</order>
-        <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>870db019c3d0921071d79242b401319a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <ui_id>3ab5536c-8200-42f1-98ab-715df9fc5d60</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=870db019c3d0921071d79242b401319a"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>870db019c3d0921071d79242b401319a</document_key>
-        <order>6</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>470db019c3d0921071d79242b401319d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>Interview Scheduling Approval Required</value>
-        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>870db019c3d0921071d79242b401319a</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>830db019c3d0921071d79242b401319d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>x_1210077_employ_0_interview_scheduling</value>
-        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>870db019c3d0921071d79242b401319a</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>cf0db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=870db019c3d0921071d79242b401319a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>870db019c3d0921071d79242b401319a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>070db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Dear,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:8fae3863-07d3-4cd8-8559-5c794fa58c03}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:8fae3863-07d3-4cd8-8559-5c794fa58c03}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 - Create Record &amp;gt; Interview Scheduling Record &amp;gt; Assigned to &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;5 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8fae3863-07d3-4cd8-8559-5c794fa58c03" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:6adace1c-b2b3-449a-ac09-cc2a35d495e1}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:6adace1c-b2b3-449a-ac09-cc2a35d495e1}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 - Create Record &amp;gt; Interview Scheduling Record &amp;gt; Assigned to &amp;gt; Last name"&gt;&lt;span class="pill-start"&gt;5 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_6adace1c-b2b3-449a-ac09-cc2a35d495e1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;An interview has been scheduled, and we require your approval for the proposed date.&lt;/p&gt;
-&lt;p&gt;Please review the details below and confirm if the date works for you. If the date is acceptable, kindly let us know your availability by suggesting a suitable time.&lt;/p&gt;
-&lt;p&gt;Your prompt response will help us proceed smoothly with the interview process.&lt;/p&gt;
-&lt;p&gt;Please check the above details.&lt;/p&gt;
-&lt;p&gt;Candidate Name :&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:963b7500-79d9-4ae0-8e89-c10d2d62c3a0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:963b7500-79d9-4ae0-8e89-c10d2d62c3a0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_963b7500-79d9-4ae0-8e89-c10d2d62c3a0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:8b8d25dd-f61c-4d08-aafe-f44530769d88}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:8b8d25dd-f61c-4d08-aafe-f44530769d88}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_8b8d25dd-f61c-4d08-aafe-f44530769d88" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;User ID :&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:52e8b175-9403-462d-b814-cf7fe82e5bc7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:52e8b175-9403-462d-b814-cf7fe82e5bc7}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 - Create Record &amp;gt; Interview Scheduling Record &amp;gt; User ID of the Candidate"&gt;&lt;span class="pill-start"&gt;5 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;User ID of the Candidate&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_52e8b175-9403-462d-b814-cf7fe82e5bc7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&lt;br /&gt;If the Date mentioned above is ok then Please let us know about the time.&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Thank you.&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>870db019c3d0921071d79242b401319a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>4f0db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>870db019c3d0921071d79242b401319a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>430db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value> {{19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to.email}} </value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>870db019c3d0921071d79242b401319a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>c70db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{19966916-bcf2-451c-9b58-f7450d7e6970.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>870db019c3d0921071d79242b401319a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>8b0db019c3d0921071d79242b401319c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=870db019c3d0921071d79242b401319a"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=870db019c3d0921071d79242b401319a"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
@@ -2706,10 +2302,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>8b0db019c3d0921071d79242b4013162</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <ui_id>89d291cd-d22b-428b-89ab-6db55e2ab7cd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b0db019c3d0921071d79242b4013162"/>
@@ -2789,16 +2385,243 @@
         <comment/>
         <display_text/>
         <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
+        <order>10</order>
+        <parent_ui_id>61e86fc7-e5d5-417e-9275-f26aca285e31</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b0062961c318121071d79242b40131b9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>22231fd5-7f4c-43db-bf60-3bb56b379b4a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0062961c318121071d79242b40131b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0062961c318121071d79242b40131b9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>bc062961c318121071d79242b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value>x_1210077_employ_0_user_registration_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0062961c318121071d79242b40131b9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f8062961c318121071d79242b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value>u_choice_1=confirmed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0062961c318121071d79242b40131b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b0062961c318121071d79242b40131b9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>78062961c318121071d79242b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b0062961c318121071d79242b40131b9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f0062961c318121071d79242b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b0062961c318121071d79242b40131b9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b4062961c318121071d79242b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b0062961c318121071d79242b40131b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0062961c318121071d79242b40131b9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
+        <order>5</order>
+        <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b4062961c318121071d79242b4013192</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4062961c318121071d79242b4013192"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4062961c318121071d79242b4013192</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>34062961c318121071d79242b4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value>x_1210077_employ_0_user_registration_data</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4062961c318121071d79242b4013192</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>3c062961c318121071d79242b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4062961c318121071d79242b4013192</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f4062961c318121071d79242b4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value>Verification Process Completed</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b4062961c318121071d79242b4013192"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b4062961c318121071d79242b4013192</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>70062961c318121071d79242b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear,&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:10594ef5-3299-4c1a-b9bb-4949c472aaf8}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:10594ef5-3299-4c1a-b9bb-4949c472aaf8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_10594ef5-3299-4c1a-b9bb-4949c472aaf8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:da08ff7e-c887-4960-b33d-93980b6057ac}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:da08ff7e-c887-4960-b33d-93980b6057ac}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_da08ff7e-c887-4960-b33d-93980b6057ac" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I hope this email finds you well.&lt;/p&gt;
+&lt;p&gt;We are pleased to inform you that your interview for the&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:81bfa9a8-be85-4d90-83be-7e318a038f53}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:81bfa9a8-be85-4d90-83be-7e318a038f53}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; User Registration Data Record &amp;gt; Role"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Role&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_81bfa9a8-be85-4d90-83be-7e318a038f53" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;position at KREEYA TECHNOLOGIES has been scheduled.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Below are the details:&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;Please check the availability of your interviewer&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a8a1b32f-fc7c-46d5-9cc7-c7f94432904f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:a8a1b32f-fc7c-46d5-9cc7-c7f94432904f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 - Create Record &amp;gt; Interview Scheduling Record &amp;gt; Calendly Link"&gt;&lt;span class="pill-start"&gt;5 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Calendly Link&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a8a1b32f-fc7c-46d5-9cc7-c7f94432904f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Additionally, we have successfully completed your verification process.&lt;/p&gt;
+&lt;p&gt;Please make sure to review the interview details and prepare accordingly. If you have any questions or need further assistance, feel free to reach out.&lt;/p&gt;
+&lt;p&gt;We look forward to meeting you!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Good Luck For your Interview&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Best Regards,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;HR KREEYA.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b4062961c318121071d79242b4013192</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b8062961c318121071d79242b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b4062961c318121071d79242b4013192</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b8062961c318121071d79242b4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4062961c318121071d79242b4013192</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>34062961c318121071d79242b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b4062961c318121071d79242b4013192</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f4062961c318121071d79242b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4062961c318121071d79242b4013192"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4062961c318121071d79242b4013192"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:40</sys_created_on>
         <sys_id>cf0db019c3d0921071d79242b4013172</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <ui_id>1daf5e8f-bc13-4e67-9b06-093ea4c1f3a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf0db019c3d0921071d79242b4013172"/>
@@ -2872,115 +2695,106 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>cf0db019c3d0921071d79242b401317a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>fc062961c318121071d79242b40131a9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <ui_id>19966916-bcf2-451c-9b58-f7450d7e6970</ui_id>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>9529c571-ffa7-44e8-87a3-a8df0b9f83fe</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=cf0db019c3d0921071d79242b401317a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc062961c318121071d79242b40131a9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>cf0db019c3d0921071d79242b401317a</document_key>
-        <order>0</order>
+        <document_key>fc062961c318121071d79242b40131a9</document_key>
+        <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>c30db019c3d0921071d79242b401317c</sys_id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>38062961c318121071d79242b40131ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <value>x_1210077_employ_0_interview_scheduling</value>
-        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=cf0db019c3d0921071d79242b401317a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>cf0db019c3d0921071d79242b401317a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>8f0db019c3d0921071d79242b401317b</sys_id>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fc062961c318121071d79242b40131a9</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>74062961c318121071d79242b40131ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc062961c318121071d79242b40131a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>fc062961c318121071d79242b40131a9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>30062961c318121071d79242b40131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.8a79840ec3af421071d79242b4013194}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>fc062961c318121071d79242b40131a9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>7c062961c318121071d79242b40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fc062961c318121071d79242b40131a9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>b8062961c318121071d79242b40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{8f9f8ad5-5bcc-4f7c-9c28-ee8527071db4.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fc062961c318121071d79242b40131a9</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:06</sys_created_on>
+        <sys_id>f0062961c318121071d79242b40131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>cf0db019c3d0921071d79242b401317a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:40</sys_created_on>
-        <sys_id>430db019c3d0921071d79242b401317c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:40</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>short_description={{Created or Updated_1.current.user_name}}  Interview Scheduled On^email_id={{Created or Updated_1.current.email}}^calendly_link=https://calendly.com/konduritanvi08/bow-ruggeri?month=2024-08^name_of_the_candidate={{Created or Updated_1.current.user_name}}^employee_id={{Created or Updated_1.current.number}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=cf0db019c3d0921071d79242b401317a"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cf0db019c3d0921071d79242b401317a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fc062961c318121071d79242b40131a9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc062961c318121071d79242b40131a9"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fe0d7019c3d0921071d79242b40131b7"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN070db019c3d0921071d79242b401314d,360db019c3d0921071d79242b4013146,b20db019c3d0921071d79242b401314a"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">4595acc1c344d21071d79242b40131d8</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>9</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:39</sys_created_on>
-        <sys_id>070db019c3d0921071d79242b401314d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
-        <ui_id>d4b18feb-9b76-46c4-9387-f09248ae970e</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=070db019c3d0921071d79242b401314d"/>
-    <sys_element_mapping action="delete_multiple" query="id=070db019c3d0921071d79242b401314d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>070db019c3d0921071d79242b401314d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:39</sys_created_on>
-        <sys_id>830db019c3d0921071d79242b401315c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{fc5b6a94-6c82-4053-a587-13ad9495f2dd.approval_state}}=approved</value>
-    </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=070db019c3d0921071d79242b401314d"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=070db019c3d0921071d79242b401314d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN360db019c3d0921071d79242b4013146,3c062961c318121071d79242b40131d1,74062961c318121071d79242b40131ce"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">101e6daac3ef061071d79242b40131c9</block>
@@ -3004,10 +2818,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>360db019c3d0921071d79242b4013146</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <ui_id>106959df-7def-4373-8bb7-43805670247c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3030,7 +2844,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=360db019c3d0921071d79242b4013146"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">0995acc1c344d21071d79242b40131be</block>
+        <block display_value="">f1c8a465c350121071d79242b4013156</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -3043,38 +2857,85 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:39</sys_created_on>
-        <sys_id>b20db019c3d0921071d79242b401314a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
-        <ui_id>513747c0-5fd5-48da-8ca8-07b78bdabda4</ui_id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:07</sys_created_on>
+        <sys_id>3c062961c318121071d79242b40131d1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>61e86fc7-e5d5-417e-9275-f26aca285e31</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=b20db019c3d0921071d79242b401314a"/>
-    <sys_element_mapping action="delete_multiple" query="id=b20db019c3d0921071d79242b401314a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3c062961c318121071d79242b40131d1"/>
+    <sys_element_mapping action="delete_multiple" query="id=3c062961c318121071d79242b40131d1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
-        <id>b20db019c3d0921071d79242b401314a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-27 12:33:39</sys_created_on>
-        <sys_id>7a0db019c3d0921071d79242b401314c</sys_id>
+        <id>3c062961c318121071d79242b40131d1</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:07</sys_created_on>
+        <sys_id>f0062961c318121071d79242b40131d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:39</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{19966916-bcf2-451c-9b58-f7450d7e6970.record.assigned_to}}!={{19966916-bcf2-451c-9b58-f7450d7e6970.__action_status__.message}}</value>
+        <value>{{9529c571-ffa7-44e8-87a3-a8df0b9f83fe.approval_state}}=rejected</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b20db019c3d0921071d79242b401314a"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b20db019c3d0921071d79242b401314a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3c062961c318121071d79242b40131d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c062961c318121071d79242b40131d1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f1c8a465c350121071d79242b401314c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value=" Referal Management Data">fe0d7019c3d0921071d79242b40131b7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>106959df-7def-4373-8bb7-43805670247c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:07</sys_created_on>
+        <sys_id>74062961c318121071d79242b40131ce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <ui_id>7769333f-7299-4065-a64a-ae1478469ac4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=74062961c318121071d79242b40131ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=74062961c318121071d79242b40131ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>74062961c318121071d79242b40131ce</id>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-08-28 10:11:07</sys_created_on>
+        <sys_id>30062961c318121071d79242b40131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{9529c571-ffa7-44e8-87a3-a8df0b9f83fe.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=74062961c318121071d79242b40131ce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=74062961c318121071d79242b40131ce"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe0d7019c3d0921071d79242b40131b7^sys_idNOT IN030db019c3d0921071d79242b40131af,130db019c3d0921071d79242b40131b0,130db019c3d0921071d79242b40131b1,170db019c3d0921071d79242b40131af,170db019c3d0921071d79242b40131b0,170db019c3d0921071d79242b40131b1,1b0db019c3d0921071d79242b40131af,1b0db019c3d0921071d79242b40131b0,1b0db019c3d0921071d79242b40131b1,1f0db019c3d0921071d79242b40131af,1f0db019c3d0921071d79242b40131b0,8f0db019c3d0921071d79242b40131ae,930db019c3d0921071d79242b40131af,930db019c3d0921071d79242b40131b0,930db019c3d0921071d79242b40131b1,970db019c3d0921071d79242b40131af,970db019c3d0921071d79242b40131b0,970db019c3d0921071d79242b40131b1,9b0db019c3d0921071d79242b40131af,9b0db019c3d0921071d79242b40131b0,9f0db019c3d0921071d79242b40131af,9f0db019c3d0921071d79242b40131b0"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe0d7019c3d0921071d79242b40131b7</attached_to>
@@ -3465,7 +3326,7 @@
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>760db019c3d0921071d79242b4013136</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -3488,7 +3349,7 @@
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>7a0d7019c3d0921071d79242b40131ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -3511,7 +3372,7 @@
         <sys_created_on>2024-08-27 12:33:39</sys_created_on>
         <sys_id>be0db019c3d0921071d79242b401313e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Employee Suite" source="x_1210077_employ_0">d7add99847230210e560de94116d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Suite">d7add99847230210e560de94116d436a</sys_scope>
@@ -3534,17 +3395,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a30df019c3d0921071d79242b401311f","name":"plan","plan_signature":null}}</plan>
         <plan_id>d2297c91c3d0921071d79242b40131f9</plan_id>
-        <snapshot>f1a0a0a9c310121071d79242b401311c</snapshot>
+        <snapshot>fe0d7019c3d0921071d79242b40131b7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-27 12:33:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a30df019c3d0921071d79242b401311f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-27 12:33:41</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-08-28 10:11:09</sys_updated_on>
         <trigger display_value="">e70df019c3d0921071d79242b401311d</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d2297c91c3d0921071d79242b40131f9"/>
